@@ -1,23 +1,5997 @@
 {
-	"groups":[
-	{
-		"keys":"bg_jpg,egret_icon_png,description_json",
-		"name":"preload"
-	}],
-	"resources":[
-	{
-		"name":"bg_jpg",
-		"type":"image",
-		"url":"assets/bg.jpg"
-	},
-	{
-		"name":"egret_icon_png",
-		"type":"image",
-		"url":"assets/egret_icon.png"
-	},
-	{
-		"name":"description_json",
-		"type":"json",
-		"url":"config/description.json"
-	}]
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,bgm012_wav,se012_wav,se022_wav,se032_wav,se042_wav,se052_wav,se062_wav,se072_wav,se079_Homes2_wav,se082_wav,se080_Homes2_wav,se092_wav,se102_wav,se112_wav,se115_Hyakki2_wav,se122_wav,album3_png,album_150_1503_png,album_dodai3_png,asphalt_013_png,Background3_png,back_mainIn3_png,back_mainOut_2_L3_png,back_mainOut_2_R3_png,bgm3_png,bgm_off3_png,bgm_on3_png,bousi_ie3_png,button_013_png,button_023_png,button_033_png,button_043_png,button_053_png,button_empty3_png,cancel3_png,checkmark #2932022_png,Checkmark3_png,close3_png,clover_1543_png,clover_1603_png,clover_1663_png,clover_kounyuu3_png,clover_kounyuu_button3_png,collection_02_png,collection_110_png,collection_102_png,collection_112_png,collection_122_png,collection_132_png,collection_142_png,collection_152_png,collection_150_1503_png,collection_162_png,collection_172_png,collection_182_png,collection_192_png,collection_210_png,collection_202_png,collection_212_png,collection_222_png,collection_232_png,collection_242_png,collection_252_png,collection_262_png,collection_272_png,collection_282_png,collection_292_png,collection_310_png,collection_302_png,collection_312_png,collection_322_png,collection_332_png,collection_342_png,collection_352_png,collection_362_png,collection_372_png,collection_382_png,collection_392_png,collection_410_png,collection_402_png,collection_412_png,collection_422_png,collection_432_png,collection_442_png,collection_452_png,collection_462_png,collection_472_png,collection_482_png,collection_492_png,collection_59_png,collection_502_png,collection_512_png,collection_522_png,collection_532_png,collection_542_png,collection_552_png,collection_562_png,collection_572_png,collection_582_png,collection_62_png,collection_72_png,collection_82_png,collection_92_png,dokusyo_ie3_png,dougu_013_png,dougu_01_23_png,dougu_01_33_png,dougu_01_43_png,dougu_023_png,dougu_02_23_png,dougu_02_33_png,dougu_02_43_png,dougu_033_png,dougu_03_23_png,dougu_03_33_png,dougu_03_43_png,dougu_043_png,dougu_053_png,dougu_f_013_png,dougu_f_023_png,dougu_f_033_png,dougu_f_043_png,dougu_f_053_png,dougu_f_063_png,dougu_f_073_png,dougu_f_083_png,dougu_f_093_png,dougu_f_103_png,dougu_k_013_png,dougu_k_023_png,dougu_k_033_png,dougu_k_043_png,dougu_k_053_png,dougu_k_063_png,dougu_k_073_png,dougu_k_083_png,dougu_k_093_png,dougu_n_013_png,dougu_n_023_png,dougu_n_033_png,dougu_n_043_png,dougu_n_053_png,dougu_n_063_png,dougu_n_073_png,dougu_n_083_png,dougu_n_093_png,dougu_n_103_png,dougu_owan_013_png,dougu_owan_023_png,dougu_t_013_png,dougu_t_023_png,dougu_t_033_png,dougu_t_043_png,dougu_t_053_png,dougu_t_063_png,dougu_t_073_png,dougu_t_083_png,dougu_t_093_png,doui_no3_png,doui_yes3_png,doutyuu_f_013_png,doutyuu_f_023_png,doutyuu_f_033_png,doutyuu_f_043_png,doutyuu_f_053_png,doutyuu_k_01l3_png,doutyuu_k_01r3_png,doutyuu_k_02l3_png,doutyuu_k_02r3_png,doutyuu_k_033_png,doutyuu_k_04l3_png,doutyuu_k_04r3_png,doutyuu_k_05l3_png,doutyuu_k_05r3_png,doutyuu_n_013_png,doutyuu_n_023_png,doutyuu_n_033_png,doutyuu_n_043_png,doutyuu_n_053_png,doutyuu_t_013_png,doutyuu_t_023_png,doutyuu_t_033_png,doutyuu_t_043_png,doutyuu_t_053_png,DropdownArrow3_png,frame_013_png,frame_023_png,frame_033_png,frame_empty3_png,frame_kaban3_png,frame_name3_png,frame_small3_png,frame_tsukue3_png,frog_02_png,frog_12_png,frog_22_png,frog_32_png,frog_42_png,gomibako3_png,goods_02_png,goods_19_png,goods_102_png,goods_112_png,goods_122_png,goods_132_png,goods_142_png,goods_152_png,goods_162_png,goods_172_png,goods_182_png,goods_22_png,goods_32_png,goods_42_png,goods_52_png,goods_62_png,goods_72_png,goods_82_png,goods_92_png,goods_hukubiki_02_png,goods_hukubiki_110_png,goods_hukubiki_102_png,goods_hukubiki_112_png,goods_hukubiki_122_png,goods_hukubiki_132_png,goods_hukubiki_142_png,goods_hukubiki_152_png,goods_hukubiki_162_png,goods_hukubiki_172_png,goods_hukubiki_182_png,goods_hukubiki_192_png,goods_hukubiki_22_png,goods_hukubiki_32_png,goods_hukubiki_42_png,goods_hukubiki_52_png,goods_hukubiki_62_png,goods_hukubiki_72_png,goods_hukubiki_82_png,goods_hukubiki_92_png,haikei_013_png,haikei_niwa3_png,haikei_niwa_akari3_png,hayasi_013_png,help3_png,HelpPic_0_13_png,HelpPic_0_23_png,helpPic_1_13_png,HelpPic_2_13_png,helpPic_2_23_png,helpPic_3_13_png,helpPic_3_23_png,HelpPic_3_33_png,helpPic_4_13_png,helpPic_5_13_png,helpPic_5_23_png,HelpPic_5_33_png,hikki_ie3_png,hi_rousoku3_png,hi_syokudai3_png,hozon_yes3_png,hplogo3_png,icon_camera_84_883_png,icon_help_84_883_png,icon_house_84_883_png,icon_item_84_883_png,icon_menu_92_963_png,icon_name3_png,icon_out_84_883_png,icon_shop_84_883_png,icon_syougou3_png,icon_urabeya_84_883_png,inemuri_ie3_png,ippin3_png,isigame_niwa3_png,item_back3_png,kaban3_png,kaban_frame_013_png,kaban_frame_023_png,kaban_frame_033_png,kaeru_niwa3_png,kanryou3_png,katadukeru3_png,katatsumuri_niwa3_png,keihin3_png,ki_013_png,ki_023_png,ki_033_png,ki_043_png,ki_053_png,koke_013_png,koke_023_png,koke_033_png,koke_043_png,koke_053_png,koke_063_png,koke_073_png,koke_083_png,koke_093_png,koke_103_png,konkuri_013_png,kumo_013_png,kumo_023_png,kumo_033_png,kumo_043_png,kumo_053_png,kumo_063_png,kusa_013_png,kusa_023_png,kusa_033_png,kusa_043_png,kusa_053_png,kusa_063_png,kusa_073_png,kusa_083_png,kusa_093_png,kusa_103_png,kusa_113_png,kutu_013_png,label_013_png,label_023_png,label_033_png,label_043_png,line_013_png,loading3_png,loading_dorai3_png,loading_off3_png,loading_on3_png,lottery_ball_013_png,lottery_ball_023_png,lottery_ball_033_png,lottery_ball_043_png,lottery_ball_053_png,lottery_dodai3_png,lottery_frame_013_png,lottery_frame_023_png,lottery_frame_033_png,lottery_frame_043_png,lottery_frame_053_png,lottery_hukubiki3_png,lottery_keihin3_png,lottery_mawasu3_png,lottery_syozi3_png,lottery_tenpo_sita3_png,lottery_tenpo_ue3_png,lottery_zoom_frame3_png,lottery_zoom_tray_013_png,lottery_zoom_tray_023_png,mail_hukubiki3_png,mail_isigame3_png,mail_katatsumuri3_png,mail_mitsubati3_png,mail_mituba3_png,mail_olluketori3_png,mail_tirashi3_png,mail_uketori3_png,mail_yotuba3_png,MainOut_mail_tuuti3_png,meibutu3_png,meisyo_013_png,meisyo_023_png,meisyo_033_png,meisyo_043_png,meisyo_053_png,meisyo_063_png,meisyo_073_png,meisyo_083_png,meisyo_093_png,meisyo_103_png,meisyo_f_013_png,meisyo_f_023_png,meisyo_f_033_png,meisyo_f_043_png,meisyo_f_053_png,meisyo_f_063_png,meisyo_f_073_png,meisyo_f_083_png,meisyo_f_093_png,meisyo_f_103_png,meisyo_f_113_png,meisyo_f_123_png,meisyo_f_133_png,meisyo_f_143_png,meisyo_k_013_png,meisyo_k_023_png,meisyo_k_033_png,meisyo_k_043_png,meisyo_k_053_png,meisyo_k_063_png,meisyo_k_073_png,meisyo_k_083_png,meisyo_k_093_png,meisyo_k_103_png,meisyo_n_013_png,meisyo_n_023_png,meisyo_n_033_png,meisyo_n_043_png,meisyo_n_053_png,meisyo_n_063_png,meisyo_n_073_png,meisyo_n_083_png,meisyo_n_093_png,meisyo_n_103_png,meisyo_t_013_png,meisyo_t_023_png,meisyo_t_033_png,meisyo_t_043_png,meisyo_t_053_png,meisyo_t_063_png,meisyo_t_073_png,meisyo_t_083_png,meisyo_t_093_png,meisyo_t_103_png,mitsubati_niwa3_png,mori_013_png,motimono3_png,motimono_tuuti3_png,nekko_013_png,no3_png,off_off3_png,off_on3_png,ok3_png,omiyage3_png,on_off3_png,on_on3_png,otiba_013_png,otiba_023_png,otiba_033_png,otiba_043_png,otiba_053_png,otiba_063_png,otiba_073_png,otiba_083_png,otiba_093_png,otiba_103_png,otiba_113_png,otiba_123_png,otiba_133_png,otiba_143_png,otiba_153_png,otiba_163_png,otiba_173_png,otiba_183_png,page_013_png,page_023_png,photo_frame3_png,question3_png,raffle_84_883_png,sagyou_ie3_png,saku_013_png,saku_023_png,saku_033_png,scroll_l3_png,scroll_r3_png,se3_png,sentaku3_png,settei3_png,se_off3_png,se_on3_png,share_android3_png,share_ios3_png,shop_kago_b3_png,shop_kago_g3_png,shop_kago_p3_png,shop_kago_y3_png,shop_koumoku3_png,shop_kounyuu3_png,shop_setumei3_png,shop_tana3_png,shop_tenpo_sita3_png,shop_tenpo_ue3_png,shop_urikire3_png,sitaku_ie3_png,slider_a3_png,slider_b3_png,sora_013_png,sora_023_png,sora_033_png,sora_043_png,sora_053_png,sora_063_png,sora_073_png,sora_083_png,sora_093_png,sora_103_png,sora_113_png,sora_123_png,sousin3_png,Square3_png,start3_png,sumi3_png,syokuzi_ie3_png,syougou3_png,sys_clover_window3_png,sys_num_20_29_02_png,sys_num_20_29_12_png,sys_num_20_29_22_png,sys_num_20_29_32_png,sys_num_20_29_42_png,sys_num_20_29_52_png,sys_num_20_29_62_png,sys_num_20_29_72_png,sys_num_20_29_82_png,sys_num_20_29_92_png,sys_num_24_36_02_png,sys_num_24_36_12_png,sys_num_24_36_22_png,sys_num_24_36_32_png,sys_num_24_36_42_png,sys_num_24_36_52_png,sys_num_24_36_62_png,sys_num_24_36_72_png,sys_num_24_36_82_png,sys_num_24_36_92_png,tab_dougu_off3_png,tab_dougu_on3_png,tab_meibutsu_off3_png,tab_meibutsu_on3_png,tab_obentou_off3_png,tab_obentou_on3_png,tab_omamori_off3_png,tab_omamori_on3_png,title3_png,tokusyu_013_png,tokusyu_023_png,tokusyu_033_png,tokusyu_053_png,tokusyu_05_f3_png,tokusyu_05_k3_png,tokusyu_05_n3_png,tokusyu_05_t3_png,tokusyu_063_png,tokusyu_073_png,tokusyu_083_png,tokusyu_093_png,tokusyu_103_png,tokusyu_113_png,tokusyu_123_png,tokusyu_133_png,tokusyu_143_png,tokusyu_153_png,tokusyu_163_png,tokusyu_173_png,tokusyu_17_f3_png,tokusyu_17_k3_png,tokusyu_17_n3_png,tokusyu_17_t3_png,tokusyu_183_png,tokusyu_193_png,tokusyu_19_k3_png,tokusyu_19_n3_png,tokusyu_19_t3_png,tokusyu_203_png,tokusyu_213_png,torihikiho_button3_png,tsukue3_png,tsukue_frame_013_png,tsukue_frame_023_png,tsukue_frame_033_png,tuuti3_png,UIMask3_png,UISprite3_png,umi_013_png,umi_023_png,umi_033_png,umi_043_png,umi_053_png,umi_063_png,UnitySplash-cube3_png,urabeya3_png,volume_cursor3_png,volume_off3_png,volume_on3_png,yama_013_png,yama_023_png,yama_033_png,yes3_png,yubisasi_a3_png,yubisasi_b3_png,yubisasi_c3_png,yubisasi_d3_png,yuubin3_png,zimen_013_png,zimen_023_png,zukan_dodai3_png,zukan_ippin_off3_png,zukan_ippin_on3_png,zukan_meibutsu_off3_png,zukan_meibutsu_on3_png,zukan_panel3_png,zukan_santi3_png,zukan_title3_png,r12_png,r22_png",
+			"name": "preload"
+		},
+		{
+			"keys": "bgm01_wav,se01_wav,se02_wav,se03_wav,se04_wav,se05_wav,se06_wav,se07_wav,se079_Homes_wav,se08_wav,se080_Homes_wav,se09_wav,se10_wav,se11_wav,se115_Hyakki_wav,se12_wav",
+			"name": "AudioClip"
+		},
+		{
+			"keys": "Arial_ttf,mplus-2c-black_ttf,mplus-2c-bold_ttf,mplus-2c-heavy_ttf,mplus-2c-light_ttf,mplus-2c-medium_ttf,mplus-2c-regular_ttf,mplus-2c-thin_ttf",
+			"name": "Font"
+		},
+		{
+			"keys": "Background_png,Checkmark_png,DropdownArrow_png,HelpPic_0_1_png,HelpPic_0_2_png,HelpPic_2_1_png,HelpPic_3_3_png,HelpPic_5_3_png,MainOut_mail_tuuti_png,Square_png,UIMask_png,UISprite_png,UnitySplash-cube_png,album_png,album_150_150_png,album_dodai_png,asphalt_01_png,back_mainIn_png,back_mainOut_2_L_png,back_mainOut_2_R_png,bgm_png,bgm_off_png,bgm_on_png,bousi_ie_png,button_01_png,button_02_png,button_03_png,button_04_png,button_05_png,button_empty_png,cancel_png,checkmark #293202_png,close_png,clover_154_png,clover_160_png,clover_166_png,clover_kounyuu_png,clover_kounyuu_button_png,collection_0_png,collection_1_png,collection_10_png,collection_11_png,collection_12_png,collection_13_png,collection_14_png,collection_15_png,collection_150_150_png,collection_16_png,collection_17_png,collection_18_png,collection_19_png,collection_2_png,collection_20_png,collection_21_png,collection_22_png,collection_23_png,collection_24_png,collection_25_png,collection_26_png,collection_27_png,collection_28_png,collection_29_png,collection_3_png,collection_30_png,collection_31_png,collection_32_png,collection_33_png,collection_34_png,collection_35_png,collection_36_png,collection_37_png,collection_38_png,collection_39_png,collection_4_png,collection_40_png,collection_41_png,collection_42_png,collection_43_png,collection_44_png,collection_45_png,collection_46_png,collection_47_png,collection_48_png,collection_49_png,collection_5_png,collection_50_png,collection_51_png,collection_52_png,collection_53_png,collection_54_png,collection_55_png,collection_56_png,collection_57_png,collection_58_png,collection_6_png,collection_7_png,collection_8_png,collection_9_png,dokusyo_ie_png,dougu_01_png,dougu_01_2_png,dougu_01_3_png,dougu_01_4_png,dougu_02_png,dougu_02_2_png,dougu_02_3_png,dougu_02_4_png,dougu_03_png,dougu_03_2_png,dougu_03_3_png,dougu_03_4_png,dougu_04_png,dougu_05_png,dougu_f_01_png,dougu_f_02_png,dougu_f_03_png,dougu_f_04_png,dougu_f_05_png,dougu_f_06_png,dougu_f_07_png,dougu_f_08_png,dougu_f_09_png,dougu_f_10_png,dougu_k_01_png,dougu_k_02_png,dougu_k_03_png,dougu_k_04_png,dougu_k_05_png,dougu_k_06_png,dougu_k_07_png,dougu_k_08_png,dougu_k_09_png,dougu_n_01_png,dougu_n_02_png,dougu_n_03_png,dougu_n_04_png,dougu_n_05_png,dougu_n_06_png,dougu_n_07_png,dougu_n_08_png,dougu_n_09_png,dougu_n_10_png,dougu_owan_01_png,dougu_owan_02_png,dougu_t_01_png,dougu_t_02_png,dougu_t_03_png,dougu_t_04_png,dougu_t_05_png,dougu_t_06_png,dougu_t_07_png,dougu_t_08_png,dougu_t_09_png,doui_no_png,doui_yes_png,doutyuu_f_01_png,doutyuu_f_02_png,doutyuu_f_03_png,doutyuu_f_04_png,doutyuu_f_05_png,doutyuu_k_01l_png,doutyuu_k_01r_png,doutyuu_k_02l_png,doutyuu_k_02r_png,doutyuu_k_03_png,doutyuu_k_04l_png,doutyuu_k_04r_png,doutyuu_k_05l_png,doutyuu_k_05r_png,doutyuu_n_01_png,doutyuu_n_02_png,doutyuu_n_03_png,doutyuu_n_04_png,doutyuu_n_05_png,doutyuu_t_01_png,doutyuu_t_02_png,doutyuu_t_03_png,doutyuu_t_04_png,doutyuu_t_05_png,frame_01_png,frame_02_png,frame_03_png,frame_empty_png,frame_kaban_png,frame_name_png,frame_small_png,frame_tsukue_png,frog_0_png,frog_1_png,frog_2_png,frog_3_png,frog_4_png,gomibako_png,goods_0_png,goods_1_png,goods_10_png,goods_11_png,goods_12_png,goods_13_png,goods_14_png,goods_15_png,goods_16_png,goods_17_png,goods_18_png,goods_2_png,goods_3_png,goods_4_png,goods_5_png,goods_6_png,goods_7_png,goods_8_png,goods_9_png,goods_hukubiki_0_png,goods_hukubiki_1_png,goods_hukubiki_10_png,goods_hukubiki_11_png,goods_hukubiki_12_png,goods_hukubiki_13_png,goods_hukubiki_14_png,goods_hukubiki_15_png,goods_hukubiki_16_png,goods_hukubiki_17_png,goods_hukubiki_18_png,goods_hukubiki_19_png,goods_hukubiki_2_png,goods_hukubiki_3_png,goods_hukubiki_4_png,goods_hukubiki_5_png,goods_hukubiki_6_png,goods_hukubiki_7_png,goods_hukubiki_8_png,goods_hukubiki_9_png,haikei_01_png,haikei_niwa_png,haikei_niwa_akari_png,hayasi_01_png,help_png,helpPic_1_1_png,helpPic_2_2_png,helpPic_3_1_png,helpPic_3_2_png,helpPic_4_1_png,helpPic_5_1_png,helpPic_5_2_png,hi_rousoku_png,hi_syokudai_png,hikki_ie_png,hozon_yes_png,hplogo_png,icon_camera_84_88_png,icon_help_84_88_png,icon_house_84_88_png,icon_item_84_88_png,icon_menu_92_96_png,icon_name_png,icon_out_84_88_png,icon_shop_84_88_png,icon_syougou_png,icon_urabeya_84_88_png,inemuri_ie_png,ippin_png,isigame_niwa_png,item_back_png,kaban_png,kaban_frame_01_png,kaban_frame_02_png,kaban_frame_03_png,kaeru_niwa_png,kanryou_png,katadukeru_png,katatsumuri_niwa_png,keihin_png,ki_01_png,ki_02_png,ki_03_png,ki_04_png,ki_05_png,koke_01_png,koke_02_png,koke_03_png,koke_04_png,koke_05_png,koke_06_png,koke_07_png,koke_08_png,koke_09_png,koke_10_png,konkuri_01_png,kumo_01_png,kumo_02_png,kumo_03_png,kumo_04_png,kumo_05_png,kumo_06_png,kusa_01_png,kusa_02_png,kusa_03_png,kusa_04_png,kusa_05_png,kusa_06_png,kusa_07_png,kusa_08_png,kusa_09_png,kusa_10_png,kusa_11_png,kutu_01_png,label_01_png,label_02_png,label_03_png,label_04_png,line_01_png,loading_png,loading_dorai_png,loading_off_png,loading_on_png,lottery_ball_01_png,lottery_ball_02_png,lottery_ball_03_png,lottery_ball_04_png,lottery_ball_05_png,lottery_dodai_png,lottery_frame_01_png,lottery_frame_02_png,lottery_frame_03_png,lottery_frame_04_png,lottery_frame_05_png,lottery_hukubiki_png,lottery_keihin_png,lottery_mawasu_png,lottery_syozi_png,lottery_tenpo_sita_png,lottery_tenpo_ue_png,lottery_zoom_frame_png,lottery_zoom_tray_01_png,lottery_zoom_tray_02_png,mail_hukubiki_png,mail_isigame_png,mail_katatsumuri_png,mail_mitsubati_png,mail_mituba_png,mail_olluketori_png,mail_tirashi_png,mail_uketori_png,mail_yotuba_png,meibutu_png,meisyo_01_png,meisyo_02_png,meisyo_03_png,meisyo_04_png,meisyo_05_png,meisyo_06_png,meisyo_07_png,meisyo_08_png,meisyo_09_png,meisyo_10_png,meisyo_f_01_png,meisyo_f_02_png,meisyo_f_03_png,meisyo_f_04_png,meisyo_f_05_png,meisyo_f_06_png,meisyo_f_07_png,meisyo_f_08_png,meisyo_f_09_png,meisyo_f_10_png,meisyo_f_11_png,meisyo_f_12_png,meisyo_f_13_png,meisyo_f_14_png,meisyo_k_01_png,meisyo_k_02_png,meisyo_k_03_png,meisyo_k_04_png,meisyo_k_05_png,meisyo_k_06_png,meisyo_k_07_png,meisyo_k_08_png,meisyo_k_09_png,meisyo_k_10_png,meisyo_n_01_png,meisyo_n_02_png,meisyo_n_03_png,meisyo_n_04_png,meisyo_n_05_png,meisyo_n_06_png,meisyo_n_07_png,meisyo_n_08_png,meisyo_n_09_png,meisyo_n_10_png,meisyo_t_01_png,meisyo_t_02_png,meisyo_t_03_png,meisyo_t_04_png,meisyo_t_05_png,meisyo_t_06_png,meisyo_t_07_png,meisyo_t_08_png,meisyo_t_09_png,meisyo_t_10_png,mitsubati_niwa_png,mori_01_png,motimono_png,motimono_tuuti_png,nekko_01_png,no_png,off_off_png,off_on_png,ok_png,omiyage_png,on_off_png,on_on_png,otiba_01_png,otiba_02_png,otiba_03_png,otiba_04_png,otiba_05_png,otiba_06_png,otiba_07_png,otiba_08_png,otiba_09_png,otiba_10_png,otiba_11_png,otiba_12_png,otiba_13_png,otiba_14_png,otiba_15_png,otiba_16_png,otiba_17_png,otiba_18_png,page_01_png,page_02_png,photo_frame_png,question_png,r1_png,r2_png,raffle_84_88_png,sagyou_ie_png,saku_01_png,saku_02_png,saku_03_png,scroll_l_png,scroll_r_png,se_png,se_off_png,se_on_png,sentaku_png,settei_png,share_android_png,share_ios_png,shop_kago_b_png,shop_kago_g_png,shop_kago_p_png,shop_kago_y_png,shop_koumoku_png,shop_kounyuu_png,shop_setumei_png,shop_tana_png,shop_tenpo_sita_png,shop_tenpo_ue_png,shop_urikire_png,sitaku_ie_png,slider_a_png,slider_b_png,sora_01_png,sora_02_png,sora_03_png,sora_04_png,sora_05_png,sora_06_png,sora_07_png,sora_08_png,sora_09_png,sora_10_png,sora_11_png,sora_12_png,sousin_png,start_png,sumi_png,syokuzi_ie_png,syougou_png,sys_clover_window_png,sys_num_20_29_0_png,sys_num_20_29_1_png,sys_num_20_29_2_png,sys_num_20_29_3_png,sys_num_20_29_4_png,sys_num_20_29_5_png,sys_num_20_29_6_png,sys_num_20_29_7_png,sys_num_20_29_8_png,sys_num_20_29_9_png,sys_num_24_36_0_png,sys_num_24_36_1_png,sys_num_24_36_2_png,sys_num_24_36_3_png,sys_num_24_36_4_png,sys_num_24_36_5_png,sys_num_24_36_6_png,sys_num_24_36_7_png,sys_num_24_36_8_png,sys_num_24_36_9_png,tab_dougu_off_png,tab_dougu_on_png,tab_meibutsu_off_png,tab_meibutsu_on_png,tab_obentou_off_png,tab_obentou_on_png,tab_omamori_off_png,tab_omamori_on_png,title_png,tokusyu_01_png,tokusyu_02_png,tokusyu_03_png,tokusyu_05_png,tokusyu_05_f_png,tokusyu_05_k_png,tokusyu_05_n_png,tokusyu_05_t_png,tokusyu_06_png,tokusyu_07_png,tokusyu_08_png,tokusyu_09_png,tokusyu_10_png,tokusyu_11_png,tokusyu_12_png,tokusyu_13_png,tokusyu_14_png,tokusyu_15_png,tokusyu_16_png,tokusyu_17_png,tokusyu_17_f_png,tokusyu_17_k_png,tokusyu_17_n_png,tokusyu_17_t_png,tokusyu_18_png,tokusyu_19_png,tokusyu_19_k_png,tokusyu_19_n_png,tokusyu_19_t_png,tokusyu_20_png,tokusyu_21_png,torihikiho_button_png,tsukue_png,tsukue_frame_01_png,tsukue_frame_02_png,tsukue_frame_03_png,tuuti_png,umi_01_png,umi_02_png,umi_03_png,umi_04_png,umi_05_png,umi_06_png,urabeya_png,volume_cursor_png,volume_off_png,volume_on_png,yama_01_png,yama_02_png,yama_03_png,yes_png,yubisasi_a_png,yubisasi_b_png,yubisasi_c_png,yubisasi_d_png,yuubin_png,zimen_01_png,zimen_02_png,zukan_dodai_png,zukan_ippin_off_png,zukan_ippin_on_png,zukan_meibutsu_off_png,zukan_meibutsu_on_png,zukan_panel_png,zukan_santi_png,zukan_title_png",
+			"name": "Sprite"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/Sprite/Background.png",
+			"type": "image",
+			"name": "Background_png"
+		},
+		{
+			"url": "assets/Sprite/Checkmark.png",
+			"type": "image",
+			"name": "Checkmark_png"
+		},
+		{
+			"url": "assets/Sprite/DropdownArrow.png",
+			"type": "image",
+			"name": "DropdownArrow_png"
+		},
+		{
+			"url": "assets/Sprite/HelpPic_0_1.png",
+			"type": "image",
+			"name": "HelpPic_0_1_png"
+		},
+		{
+			"url": "assets/Sprite/HelpPic_0_2.png",
+			"type": "image",
+			"name": "HelpPic_0_2_png"
+		},
+		{
+			"url": "assets/Sprite/HelpPic_2_1.png",
+			"type": "image",
+			"name": "HelpPic_2_1_png"
+		},
+		{
+			"url": "assets/Sprite/HelpPic_3_3.png",
+			"type": "image",
+			"name": "HelpPic_3_3_png"
+		},
+		{
+			"url": "assets/Sprite/HelpPic_5_3.png",
+			"type": "image",
+			"name": "HelpPic_5_3_png"
+		},
+		{
+			"url": "assets/Sprite/MainOut_mail_tuuti.png",
+			"type": "image",
+			"name": "MainOut_mail_tuuti_png"
+		},
+		{
+			"url": "assets/Sprite/Square.png",
+			"type": "image",
+			"name": "Square_png"
+		},
+		{
+			"url": "assets/Sprite/UIMask.png",
+			"type": "image",
+			"name": "UIMask_png"
+		},
+		{
+			"url": "assets/Sprite/UISprite.png",
+			"type": "image",
+			"name": "UISprite_png"
+		},
+		{
+			"url": "assets/Sprite/UnitySplash-cube.png",
+			"type": "image",
+			"name": "UnitySplash-cube_png"
+		},
+		{
+			"url": "assets/Sprite/album.png",
+			"type": "image",
+			"name": "album_png"
+		},
+		{
+			"url": "assets/Sprite/album_150_150.png",
+			"type": "image",
+			"name": "album_150_150_png"
+		},
+		{
+			"url": "assets/Sprite/album_dodai.png",
+			"type": "image",
+			"name": "album_dodai_png"
+		},
+		{
+			"url": "assets/Sprite/asphalt_01.png",
+			"type": "image",
+			"name": "asphalt_01_png"
+		},
+		{
+			"url": "assets/Sprite/back_mainIn.png",
+			"type": "image",
+			"name": "back_mainIn_png"
+		},
+		{
+			"url": "assets/Sprite/back_mainOut_2_L.png",
+			"type": "image",
+			"name": "back_mainOut_2_L_png"
+		},
+		{
+			"url": "assets/Sprite/back_mainOut_2_R.png",
+			"type": "image",
+			"name": "back_mainOut_2_R_png"
+		},
+		{
+			"url": "assets/Sprite/bgm.png",
+			"type": "image",
+			"name": "bgm_png"
+		},
+		{
+			"url": "assets/Sprite/bgm_off.png",
+			"type": "image",
+			"name": "bgm_off_png"
+		},
+		{
+			"url": "assets/Sprite/bgm_on.png",
+			"type": "image",
+			"name": "bgm_on_png"
+		},
+		{
+			"url": "assets/Sprite/bousi_ie.png",
+			"type": "image",
+			"name": "bousi_ie_png"
+		},
+		{
+			"url": "assets/Sprite/button_01.png",
+			"type": "image",
+			"name": "button_01_png"
+		},
+		{
+			"url": "assets/Sprite/button_02.png",
+			"type": "image",
+			"name": "button_02_png"
+		},
+		{
+			"url": "assets/Sprite/button_03.png",
+			"type": "image",
+			"name": "button_03_png"
+		},
+		{
+			"url": "assets/Sprite/button_04.png",
+			"type": "image",
+			"name": "button_04_png"
+		},
+		{
+			"url": "assets/Sprite/button_05.png",
+			"type": "image",
+			"name": "button_05_png"
+		},
+		{
+			"url": "assets/Sprite/button_empty.png",
+			"type": "image",
+			"name": "button_empty_png"
+		},
+		{
+			"url": "assets/Sprite/cancel.png",
+			"type": "image",
+			"name": "cancel_png"
+		},
+		{
+			"url": "assets/Sprite/checkmark #293202.png",
+			"type": "image",
+			"name": "checkmark #293202_png"
+		},
+		{
+			"url": "assets/Sprite/close.png",
+			"type": "image",
+			"name": "close_png"
+		},
+		{
+			"url": "assets/Sprite/clover_154.png",
+			"type": "image",
+			"name": "clover_154_png"
+		},
+		{
+			"url": "assets/Sprite/clover_160.png",
+			"type": "image",
+			"name": "clover_160_png"
+		},
+		{
+			"url": "assets/Sprite/clover_166.png",
+			"type": "image",
+			"name": "clover_166_png"
+		},
+		{
+			"url": "assets/Sprite/clover_kounyuu.png",
+			"type": "image",
+			"name": "clover_kounyuu_png"
+		},
+		{
+			"url": "assets/Sprite/clover_kounyuu_button.png",
+			"type": "image",
+			"name": "clover_kounyuu_button_png"
+		},
+		{
+			"url": "assets/Sprite/collection_0.png",
+			"type": "image",
+			"name": "collection_0_png"
+		},
+		{
+			"url": "assets/Sprite/collection_1.png",
+			"type": "image",
+			"name": "collection_1_png"
+		},
+		{
+			"url": "assets/Sprite/collection_10.png",
+			"type": "image",
+			"name": "collection_10_png"
+		},
+		{
+			"url": "assets/Sprite/collection_11.png",
+			"type": "image",
+			"name": "collection_11_png"
+		},
+		{
+			"url": "assets/Sprite/collection_12.png",
+			"type": "image",
+			"name": "collection_12_png"
+		},
+		{
+			"url": "assets/Sprite/collection_13.png",
+			"type": "image",
+			"name": "collection_13_png"
+		},
+		{
+			"url": "assets/Sprite/collection_14.png",
+			"type": "image",
+			"name": "collection_14_png"
+		},
+		{
+			"url": "assets/Sprite/collection_15.png",
+			"type": "image",
+			"name": "collection_15_png"
+		},
+		{
+			"url": "assets/Sprite/collection_150_150.png",
+			"type": "image",
+			"name": "collection_150_150_png"
+		},
+		{
+			"url": "assets/Sprite/collection_16.png",
+			"type": "image",
+			"name": "collection_16_png"
+		},
+		{
+			"url": "assets/Sprite/collection_17.png",
+			"type": "image",
+			"name": "collection_17_png"
+		},
+		{
+			"url": "assets/Sprite/collection_18.png",
+			"type": "image",
+			"name": "collection_18_png"
+		},
+		{
+			"url": "assets/Sprite/collection_19.png",
+			"type": "image",
+			"name": "collection_19_png"
+		},
+		{
+			"url": "assets/Sprite/collection_2.png",
+			"type": "image",
+			"name": "collection_2_png"
+		},
+		{
+			"url": "assets/Sprite/collection_20.png",
+			"type": "image",
+			"name": "collection_20_png"
+		},
+		{
+			"url": "assets/Sprite/collection_21.png",
+			"type": "image",
+			"name": "collection_21_png"
+		},
+		{
+			"url": "assets/Sprite/collection_22.png",
+			"type": "image",
+			"name": "collection_22_png"
+		},
+		{
+			"url": "assets/Sprite/collection_23.png",
+			"type": "image",
+			"name": "collection_23_png"
+		},
+		{
+			"url": "assets/Sprite/collection_24.png",
+			"type": "image",
+			"name": "collection_24_png"
+		},
+		{
+			"url": "assets/Sprite/collection_25.png",
+			"type": "image",
+			"name": "collection_25_png"
+		},
+		{
+			"url": "assets/Sprite/collection_26.png",
+			"type": "image",
+			"name": "collection_26_png"
+		},
+		{
+			"url": "assets/Sprite/collection_27.png",
+			"type": "image",
+			"name": "collection_27_png"
+		},
+		{
+			"url": "assets/Sprite/collection_28.png",
+			"type": "image",
+			"name": "collection_28_png"
+		},
+		{
+			"url": "assets/Sprite/collection_29.png",
+			"type": "image",
+			"name": "collection_29_png"
+		},
+		{
+			"url": "assets/Sprite/collection_3.png",
+			"type": "image",
+			"name": "collection_3_png"
+		},
+		{
+			"url": "assets/Sprite/collection_30.png",
+			"type": "image",
+			"name": "collection_30_png"
+		},
+		{
+			"url": "assets/Sprite/collection_31.png",
+			"type": "image",
+			"name": "collection_31_png"
+		},
+		{
+			"url": "assets/Sprite/collection_32.png",
+			"type": "image",
+			"name": "collection_32_png"
+		},
+		{
+			"url": "assets/Sprite/collection_33.png",
+			"type": "image",
+			"name": "collection_33_png"
+		},
+		{
+			"url": "assets/Sprite/collection_34.png",
+			"type": "image",
+			"name": "collection_34_png"
+		},
+		{
+			"url": "assets/Sprite/collection_35.png",
+			"type": "image",
+			"name": "collection_35_png"
+		},
+		{
+			"url": "assets/Sprite/collection_36.png",
+			"type": "image",
+			"name": "collection_36_png"
+		},
+		{
+			"url": "assets/Sprite/collection_37.png",
+			"type": "image",
+			"name": "collection_37_png"
+		},
+		{
+			"url": "assets/Sprite/collection_38.png",
+			"type": "image",
+			"name": "collection_38_png"
+		},
+		{
+			"url": "assets/Sprite/collection_39.png",
+			"type": "image",
+			"name": "collection_39_png"
+		},
+		{
+			"url": "assets/Sprite/collection_4.png",
+			"type": "image",
+			"name": "collection_4_png"
+		},
+		{
+			"url": "assets/Sprite/collection_40.png",
+			"type": "image",
+			"name": "collection_40_png"
+		},
+		{
+			"url": "assets/Sprite/collection_41.png",
+			"type": "image",
+			"name": "collection_41_png"
+		},
+		{
+			"url": "assets/Sprite/collection_42.png",
+			"type": "image",
+			"name": "collection_42_png"
+		},
+		{
+			"url": "assets/Sprite/collection_43.png",
+			"type": "image",
+			"name": "collection_43_png"
+		},
+		{
+			"url": "assets/Sprite/collection_44.png",
+			"type": "image",
+			"name": "collection_44_png"
+		},
+		{
+			"url": "assets/Sprite/collection_45.png",
+			"type": "image",
+			"name": "collection_45_png"
+		},
+		{
+			"url": "assets/Sprite/collection_46.png",
+			"type": "image",
+			"name": "collection_46_png"
+		},
+		{
+			"url": "assets/Sprite/collection_47.png",
+			"type": "image",
+			"name": "collection_47_png"
+		},
+		{
+			"url": "assets/Sprite/collection_48.png",
+			"type": "image",
+			"name": "collection_48_png"
+		},
+		{
+			"url": "assets/Sprite/collection_49.png",
+			"type": "image",
+			"name": "collection_49_png"
+		},
+		{
+			"url": "assets/Sprite/collection_5.png",
+			"type": "image",
+			"name": "collection_5_png"
+		},
+		{
+			"url": "assets/Sprite/collection_50.png",
+			"type": "image",
+			"name": "collection_50_png"
+		},
+		{
+			"url": "assets/Sprite/collection_51.png",
+			"type": "image",
+			"name": "collection_51_png"
+		},
+		{
+			"url": "assets/Sprite/collection_52.png",
+			"type": "image",
+			"name": "collection_52_png"
+		},
+		{
+			"url": "assets/Sprite/collection_53.png",
+			"type": "image",
+			"name": "collection_53_png"
+		},
+		{
+			"url": "assets/Sprite/collection_54.png",
+			"type": "image",
+			"name": "collection_54_png"
+		},
+		{
+			"url": "assets/Sprite/collection_55.png",
+			"type": "image",
+			"name": "collection_55_png"
+		},
+		{
+			"url": "assets/Sprite/collection_56.png",
+			"type": "image",
+			"name": "collection_56_png"
+		},
+		{
+			"url": "assets/Sprite/collection_57.png",
+			"type": "image",
+			"name": "collection_57_png"
+		},
+		{
+			"url": "assets/Sprite/collection_58.png",
+			"type": "image",
+			"name": "collection_58_png"
+		},
+		{
+			"url": "assets/Sprite/collection_6.png",
+			"type": "image",
+			"name": "collection_6_png"
+		},
+		{
+			"url": "assets/Sprite/collection_7.png",
+			"type": "image",
+			"name": "collection_7_png"
+		},
+		{
+			"url": "assets/Sprite/collection_8.png",
+			"type": "image",
+			"name": "collection_8_png"
+		},
+		{
+			"url": "assets/Sprite/collection_9.png",
+			"type": "image",
+			"name": "collection_9_png"
+		},
+		{
+			"url": "assets/Sprite/dokusyo_ie.png",
+			"type": "image",
+			"name": "dokusyo_ie_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_01.png",
+			"type": "image",
+			"name": "dougu_01_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_01_2.png",
+			"type": "image",
+			"name": "dougu_01_2_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_01_3.png",
+			"type": "image",
+			"name": "dougu_01_3_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_01_4.png",
+			"type": "image",
+			"name": "dougu_01_4_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_02.png",
+			"type": "image",
+			"name": "dougu_02_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_02_2.png",
+			"type": "image",
+			"name": "dougu_02_2_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_02_3.png",
+			"type": "image",
+			"name": "dougu_02_3_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_02_4.png",
+			"type": "image",
+			"name": "dougu_02_4_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_03.png",
+			"type": "image",
+			"name": "dougu_03_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_03_2.png",
+			"type": "image",
+			"name": "dougu_03_2_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_03_3.png",
+			"type": "image",
+			"name": "dougu_03_3_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_03_4.png",
+			"type": "image",
+			"name": "dougu_03_4_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_04.png",
+			"type": "image",
+			"name": "dougu_04_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_05.png",
+			"type": "image",
+			"name": "dougu_05_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_01.png",
+			"type": "image",
+			"name": "dougu_f_01_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_02.png",
+			"type": "image",
+			"name": "dougu_f_02_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_03.png",
+			"type": "image",
+			"name": "dougu_f_03_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_04.png",
+			"type": "image",
+			"name": "dougu_f_04_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_05.png",
+			"type": "image",
+			"name": "dougu_f_05_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_06.png",
+			"type": "image",
+			"name": "dougu_f_06_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_07.png",
+			"type": "image",
+			"name": "dougu_f_07_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_08.png",
+			"type": "image",
+			"name": "dougu_f_08_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_09.png",
+			"type": "image",
+			"name": "dougu_f_09_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_10.png",
+			"type": "image",
+			"name": "dougu_f_10_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_01.png",
+			"type": "image",
+			"name": "dougu_k_01_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_02.png",
+			"type": "image",
+			"name": "dougu_k_02_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_03.png",
+			"type": "image",
+			"name": "dougu_k_03_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_04.png",
+			"type": "image",
+			"name": "dougu_k_04_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_05.png",
+			"type": "image",
+			"name": "dougu_k_05_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_06.png",
+			"type": "image",
+			"name": "dougu_k_06_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_07.png",
+			"type": "image",
+			"name": "dougu_k_07_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_08.png",
+			"type": "image",
+			"name": "dougu_k_08_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_09.png",
+			"type": "image",
+			"name": "dougu_k_09_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_01.png",
+			"type": "image",
+			"name": "dougu_n_01_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_02.png",
+			"type": "image",
+			"name": "dougu_n_02_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_03.png",
+			"type": "image",
+			"name": "dougu_n_03_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_04.png",
+			"type": "image",
+			"name": "dougu_n_04_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_05.png",
+			"type": "image",
+			"name": "dougu_n_05_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_06.png",
+			"type": "image",
+			"name": "dougu_n_06_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_07.png",
+			"type": "image",
+			"name": "dougu_n_07_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_08.png",
+			"type": "image",
+			"name": "dougu_n_08_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_09.png",
+			"type": "image",
+			"name": "dougu_n_09_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_10.png",
+			"type": "image",
+			"name": "dougu_n_10_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_owan_01.png",
+			"type": "image",
+			"name": "dougu_owan_01_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_owan_02.png",
+			"type": "image",
+			"name": "dougu_owan_02_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_01.png",
+			"type": "image",
+			"name": "dougu_t_01_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_02.png",
+			"type": "image",
+			"name": "dougu_t_02_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_03.png",
+			"type": "image",
+			"name": "dougu_t_03_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_04.png",
+			"type": "image",
+			"name": "dougu_t_04_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_05.png",
+			"type": "image",
+			"name": "dougu_t_05_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_06.png",
+			"type": "image",
+			"name": "dougu_t_06_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_07.png",
+			"type": "image",
+			"name": "dougu_t_07_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_08.png",
+			"type": "image",
+			"name": "dougu_t_08_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_09.png",
+			"type": "image",
+			"name": "dougu_t_09_png"
+		},
+		{
+			"url": "assets/Sprite/doui_no.png",
+			"type": "image",
+			"name": "doui_no_png"
+		},
+		{
+			"url": "assets/Sprite/doui_yes.png",
+			"type": "image",
+			"name": "doui_yes_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_f_01.png",
+			"type": "image",
+			"name": "doutyuu_f_01_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_f_02.png",
+			"type": "image",
+			"name": "doutyuu_f_02_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_f_03.png",
+			"type": "image",
+			"name": "doutyuu_f_03_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_f_04.png",
+			"type": "image",
+			"name": "doutyuu_f_04_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_f_05.png",
+			"type": "image",
+			"name": "doutyuu_f_05_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_01l.png",
+			"type": "image",
+			"name": "doutyuu_k_01l_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_01r.png",
+			"type": "image",
+			"name": "doutyuu_k_01r_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_02l.png",
+			"type": "image",
+			"name": "doutyuu_k_02l_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_02r.png",
+			"type": "image",
+			"name": "doutyuu_k_02r_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_03.png",
+			"type": "image",
+			"name": "doutyuu_k_03_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_04l.png",
+			"type": "image",
+			"name": "doutyuu_k_04l_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_04r.png",
+			"type": "image",
+			"name": "doutyuu_k_04r_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_05l.png",
+			"type": "image",
+			"name": "doutyuu_k_05l_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_05r.png",
+			"type": "image",
+			"name": "doutyuu_k_05r_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_n_01.png",
+			"type": "image",
+			"name": "doutyuu_n_01_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_n_02.png",
+			"type": "image",
+			"name": "doutyuu_n_02_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_n_03.png",
+			"type": "image",
+			"name": "doutyuu_n_03_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_n_04.png",
+			"type": "image",
+			"name": "doutyuu_n_04_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_n_05.png",
+			"type": "image",
+			"name": "doutyuu_n_05_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_t_01.png",
+			"type": "image",
+			"name": "doutyuu_t_01_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_t_02.png",
+			"type": "image",
+			"name": "doutyuu_t_02_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_t_03.png",
+			"type": "image",
+			"name": "doutyuu_t_03_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_t_04.png",
+			"type": "image",
+			"name": "doutyuu_t_04_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_t_05.png",
+			"type": "image",
+			"name": "doutyuu_t_05_png"
+		},
+		{
+			"url": "assets/Sprite/frame_01.png",
+			"type": "image",
+			"name": "frame_01_png"
+		},
+		{
+			"url": "assets/Sprite/frame_02.png",
+			"type": "image",
+			"name": "frame_02_png"
+		},
+		{
+			"url": "assets/Sprite/frame_03.png",
+			"type": "image",
+			"name": "frame_03_png"
+		},
+		{
+			"url": "assets/Sprite/frame_empty.png",
+			"type": "image",
+			"name": "frame_empty_png"
+		},
+		{
+			"url": "assets/Sprite/frame_kaban.png",
+			"type": "image",
+			"name": "frame_kaban_png"
+		},
+		{
+			"url": "assets/Sprite/frame_name.png",
+			"type": "image",
+			"name": "frame_name_png"
+		},
+		{
+			"url": "assets/Sprite/frame_small.png",
+			"type": "image",
+			"name": "frame_small_png"
+		},
+		{
+			"url": "assets/Sprite/frame_tsukue.png",
+			"type": "image",
+			"name": "frame_tsukue_png"
+		},
+		{
+			"url": "assets/Sprite/frog_0.png",
+			"type": "image",
+			"name": "frog_0_png"
+		},
+		{
+			"url": "assets/Sprite/frog_1.png",
+			"type": "image",
+			"name": "frog_1_png"
+		},
+		{
+			"url": "assets/Sprite/frog_2.png",
+			"type": "image",
+			"name": "frog_2_png"
+		},
+		{
+			"url": "assets/Sprite/frog_3.png",
+			"type": "image",
+			"name": "frog_3_png"
+		},
+		{
+			"url": "assets/Sprite/frog_4.png",
+			"type": "image",
+			"name": "frog_4_png"
+		},
+		{
+			"url": "assets/Sprite/gomibako.png",
+			"type": "image",
+			"name": "gomibako_png"
+		},
+		{
+			"url": "assets/Sprite/goods_0.png",
+			"type": "image",
+			"name": "goods_0_png"
+		},
+		{
+			"url": "assets/Sprite/goods_1.png",
+			"type": "image",
+			"name": "goods_1_png"
+		},
+		{
+			"url": "assets/Sprite/goods_10.png",
+			"type": "image",
+			"name": "goods_10_png"
+		},
+		{
+			"url": "assets/Sprite/goods_11.png",
+			"type": "image",
+			"name": "goods_11_png"
+		},
+		{
+			"url": "assets/Sprite/goods_12.png",
+			"type": "image",
+			"name": "goods_12_png"
+		},
+		{
+			"url": "assets/Sprite/goods_13.png",
+			"type": "image",
+			"name": "goods_13_png"
+		},
+		{
+			"url": "assets/Sprite/goods_14.png",
+			"type": "image",
+			"name": "goods_14_png"
+		},
+		{
+			"url": "assets/Sprite/goods_15.png",
+			"type": "image",
+			"name": "goods_15_png"
+		},
+		{
+			"url": "assets/Sprite/goods_16.png",
+			"type": "image",
+			"name": "goods_16_png"
+		},
+		{
+			"url": "assets/Sprite/goods_17.png",
+			"type": "image",
+			"name": "goods_17_png"
+		},
+		{
+			"url": "assets/Sprite/goods_18.png",
+			"type": "image",
+			"name": "goods_18_png"
+		},
+		{
+			"url": "assets/Sprite/goods_2.png",
+			"type": "image",
+			"name": "goods_2_png"
+		},
+		{
+			"url": "assets/Sprite/goods_3.png",
+			"type": "image",
+			"name": "goods_3_png"
+		},
+		{
+			"url": "assets/Sprite/goods_4.png",
+			"type": "image",
+			"name": "goods_4_png"
+		},
+		{
+			"url": "assets/Sprite/goods_5.png",
+			"type": "image",
+			"name": "goods_5_png"
+		},
+		{
+			"url": "assets/Sprite/goods_6.png",
+			"type": "image",
+			"name": "goods_6_png"
+		},
+		{
+			"url": "assets/Sprite/goods_7.png",
+			"type": "image",
+			"name": "goods_7_png"
+		},
+		{
+			"url": "assets/Sprite/goods_8.png",
+			"type": "image",
+			"name": "goods_8_png"
+		},
+		{
+			"url": "assets/Sprite/goods_9.png",
+			"type": "image",
+			"name": "goods_9_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_0.png",
+			"type": "image",
+			"name": "goods_hukubiki_0_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_1.png",
+			"type": "image",
+			"name": "goods_hukubiki_1_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_10.png",
+			"type": "image",
+			"name": "goods_hukubiki_10_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_11.png",
+			"type": "image",
+			"name": "goods_hukubiki_11_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_12.png",
+			"type": "image",
+			"name": "goods_hukubiki_12_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_13.png",
+			"type": "image",
+			"name": "goods_hukubiki_13_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_14.png",
+			"type": "image",
+			"name": "goods_hukubiki_14_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_15.png",
+			"type": "image",
+			"name": "goods_hukubiki_15_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_16.png",
+			"type": "image",
+			"name": "goods_hukubiki_16_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_17.png",
+			"type": "image",
+			"name": "goods_hukubiki_17_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_18.png",
+			"type": "image",
+			"name": "goods_hukubiki_18_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_19.png",
+			"type": "image",
+			"name": "goods_hukubiki_19_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_2.png",
+			"type": "image",
+			"name": "goods_hukubiki_2_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_3.png",
+			"type": "image",
+			"name": "goods_hukubiki_3_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_4.png",
+			"type": "image",
+			"name": "goods_hukubiki_4_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_5.png",
+			"type": "image",
+			"name": "goods_hukubiki_5_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_6.png",
+			"type": "image",
+			"name": "goods_hukubiki_6_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_7.png",
+			"type": "image",
+			"name": "goods_hukubiki_7_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_8.png",
+			"type": "image",
+			"name": "goods_hukubiki_8_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_9.png",
+			"type": "image",
+			"name": "goods_hukubiki_9_png"
+		},
+		{
+			"url": "assets/Sprite/haikei_01.png",
+			"type": "image",
+			"name": "haikei_01_png"
+		},
+		{
+			"url": "assets/Sprite/haikei_niwa.png",
+			"type": "image",
+			"name": "haikei_niwa_png"
+		},
+		{
+			"url": "assets/Sprite/haikei_niwa_akari.png",
+			"type": "image",
+			"name": "haikei_niwa_akari_png"
+		},
+		{
+			"url": "assets/Sprite/hayasi_01.png",
+			"type": "image",
+			"name": "hayasi_01_png"
+		},
+		{
+			"url": "assets/Sprite/help.png",
+			"type": "image",
+			"name": "help_png"
+		},
+		{
+			"url": "assets/Sprite/helpPic_1_1.png",
+			"type": "image",
+			"name": "helpPic_1_1_png"
+		},
+		{
+			"url": "assets/Sprite/helpPic_2_2.png",
+			"type": "image",
+			"name": "helpPic_2_2_png"
+		},
+		{
+			"url": "assets/Sprite/helpPic_3_1.png",
+			"type": "image",
+			"name": "helpPic_3_1_png"
+		},
+		{
+			"url": "assets/Sprite/helpPic_3_2.png",
+			"type": "image",
+			"name": "helpPic_3_2_png"
+		},
+		{
+			"url": "assets/Sprite/helpPic_4_1.png",
+			"type": "image",
+			"name": "helpPic_4_1_png"
+		},
+		{
+			"url": "assets/Sprite/helpPic_5_1.png",
+			"type": "image",
+			"name": "helpPic_5_1_png"
+		},
+		{
+			"url": "assets/Sprite/helpPic_5_2.png",
+			"type": "image",
+			"name": "helpPic_5_2_png"
+		},
+		{
+			"url": "assets/Sprite/hi_rousoku.png",
+			"type": "image",
+			"name": "hi_rousoku_png"
+		},
+		{
+			"url": "assets/Sprite/hi_syokudai.png",
+			"type": "image",
+			"name": "hi_syokudai_png"
+		},
+		{
+			"url": "assets/Sprite/hikki_ie.png",
+			"type": "image",
+			"name": "hikki_ie_png"
+		},
+		{
+			"url": "assets/Sprite/hozon_yes.png",
+			"type": "image",
+			"name": "hozon_yes_png"
+		},
+		{
+			"url": "assets/Sprite/hplogo.png",
+			"type": "image",
+			"name": "hplogo_png"
+		},
+		{
+			"url": "assets/Sprite/icon_camera_84_88.png",
+			"type": "image",
+			"name": "icon_camera_84_88_png"
+		},
+		{
+			"url": "assets/Sprite/icon_help_84_88.png",
+			"type": "image",
+			"name": "icon_help_84_88_png"
+		},
+		{
+			"url": "assets/Sprite/icon_house_84_88.png",
+			"type": "image",
+			"name": "icon_house_84_88_png"
+		},
+		{
+			"url": "assets/Sprite/icon_item_84_88.png",
+			"type": "image",
+			"name": "icon_item_84_88_png"
+		},
+		{
+			"url": "assets/Sprite/icon_menu_92_96.png",
+			"type": "image",
+			"name": "icon_menu_92_96_png"
+		},
+		{
+			"url": "assets/Sprite/icon_name.png",
+			"type": "image",
+			"name": "icon_name_png"
+		},
+		{
+			"url": "assets/Sprite/icon_out_84_88.png",
+			"type": "image",
+			"name": "icon_out_84_88_png"
+		},
+		{
+			"url": "assets/Sprite/icon_shop_84_88.png",
+			"type": "image",
+			"name": "icon_shop_84_88_png"
+		},
+		{
+			"url": "assets/Sprite/icon_syougou.png",
+			"type": "image",
+			"name": "icon_syougou_png"
+		},
+		{
+			"url": "assets/Sprite/icon_urabeya_84_88.png",
+			"type": "image",
+			"name": "icon_urabeya_84_88_png"
+		},
+		{
+			"url": "assets/Sprite/inemuri_ie.png",
+			"type": "image",
+			"name": "inemuri_ie_png"
+		},
+		{
+			"url": "assets/Sprite/ippin.png",
+			"type": "image",
+			"name": "ippin_png"
+		},
+		{
+			"url": "assets/Sprite/isigame_niwa.png",
+			"type": "image",
+			"name": "isigame_niwa_png"
+		},
+		{
+			"url": "assets/Sprite/item_back.png",
+			"type": "image",
+			"name": "item_back_png"
+		},
+		{
+			"url": "assets/Sprite/kaban.png",
+			"type": "image",
+			"name": "kaban_png"
+		},
+		{
+			"url": "assets/Sprite/kaban_frame_01.png",
+			"type": "image",
+			"name": "kaban_frame_01_png"
+		},
+		{
+			"url": "assets/Sprite/kaban_frame_02.png",
+			"type": "image",
+			"name": "kaban_frame_02_png"
+		},
+		{
+			"url": "assets/Sprite/kaban_frame_03.png",
+			"type": "image",
+			"name": "kaban_frame_03_png"
+		},
+		{
+			"url": "assets/Sprite/kaeru_niwa.png",
+			"type": "image",
+			"name": "kaeru_niwa_png"
+		},
+		{
+			"url": "assets/Sprite/kanryou.png",
+			"type": "image",
+			"name": "kanryou_png"
+		},
+		{
+			"url": "assets/Sprite/katadukeru.png",
+			"type": "image",
+			"name": "katadukeru_png"
+		},
+		{
+			"url": "assets/Sprite/katatsumuri_niwa.png",
+			"type": "image",
+			"name": "katatsumuri_niwa_png"
+		},
+		{
+			"url": "assets/Sprite/keihin.png",
+			"type": "image",
+			"name": "keihin_png"
+		},
+		{
+			"url": "assets/Sprite/ki_01.png",
+			"type": "image",
+			"name": "ki_01_png"
+		},
+		{
+			"url": "assets/Sprite/ki_02.png",
+			"type": "image",
+			"name": "ki_02_png"
+		},
+		{
+			"url": "assets/Sprite/ki_03.png",
+			"type": "image",
+			"name": "ki_03_png"
+		},
+		{
+			"url": "assets/Sprite/ki_04.png",
+			"type": "image",
+			"name": "ki_04_png"
+		},
+		{
+			"url": "assets/Sprite/ki_05.png",
+			"type": "image",
+			"name": "ki_05_png"
+		},
+		{
+			"url": "assets/Sprite/koke_01.png",
+			"type": "image",
+			"name": "koke_01_png"
+		},
+		{
+			"url": "assets/Sprite/koke_02.png",
+			"type": "image",
+			"name": "koke_02_png"
+		},
+		{
+			"url": "assets/Sprite/koke_03.png",
+			"type": "image",
+			"name": "koke_03_png"
+		},
+		{
+			"url": "assets/Sprite/koke_04.png",
+			"type": "image",
+			"name": "koke_04_png"
+		},
+		{
+			"url": "assets/Sprite/koke_05.png",
+			"type": "image",
+			"name": "koke_05_png"
+		},
+		{
+			"url": "assets/Sprite/koke_06.png",
+			"type": "image",
+			"name": "koke_06_png"
+		},
+		{
+			"url": "assets/Sprite/koke_07.png",
+			"type": "image",
+			"name": "koke_07_png"
+		},
+		{
+			"url": "assets/Sprite/koke_08.png",
+			"type": "image",
+			"name": "koke_08_png"
+		},
+		{
+			"url": "assets/Sprite/koke_09.png",
+			"type": "image",
+			"name": "koke_09_png"
+		},
+		{
+			"url": "assets/Sprite/koke_10.png",
+			"type": "image",
+			"name": "koke_10_png"
+		},
+		{
+			"url": "assets/Sprite/konkuri_01.png",
+			"type": "image",
+			"name": "konkuri_01_png"
+		},
+		{
+			"url": "assets/Sprite/kumo_01.png",
+			"type": "image",
+			"name": "kumo_01_png"
+		},
+		{
+			"url": "assets/Sprite/kumo_02.png",
+			"type": "image",
+			"name": "kumo_02_png"
+		},
+		{
+			"url": "assets/Sprite/kumo_03.png",
+			"type": "image",
+			"name": "kumo_03_png"
+		},
+		{
+			"url": "assets/Sprite/kumo_04.png",
+			"type": "image",
+			"name": "kumo_04_png"
+		},
+		{
+			"url": "assets/Sprite/kumo_05.png",
+			"type": "image",
+			"name": "kumo_05_png"
+		},
+		{
+			"url": "assets/Sprite/kumo_06.png",
+			"type": "image",
+			"name": "kumo_06_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_01.png",
+			"type": "image",
+			"name": "kusa_01_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_02.png",
+			"type": "image",
+			"name": "kusa_02_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_03.png",
+			"type": "image",
+			"name": "kusa_03_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_04.png",
+			"type": "image",
+			"name": "kusa_04_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_05.png",
+			"type": "image",
+			"name": "kusa_05_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_06.png",
+			"type": "image",
+			"name": "kusa_06_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_07.png",
+			"type": "image",
+			"name": "kusa_07_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_08.png",
+			"type": "image",
+			"name": "kusa_08_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_09.png",
+			"type": "image",
+			"name": "kusa_09_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_10.png",
+			"type": "image",
+			"name": "kusa_10_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_11.png",
+			"type": "image",
+			"name": "kusa_11_png"
+		},
+		{
+			"url": "assets/Sprite/kutu_01.png",
+			"type": "image",
+			"name": "kutu_01_png"
+		},
+		{
+			"url": "assets/Sprite/label_01.png",
+			"type": "image",
+			"name": "label_01_png"
+		},
+		{
+			"url": "assets/Sprite/label_02.png",
+			"type": "image",
+			"name": "label_02_png"
+		},
+		{
+			"url": "assets/Sprite/label_03.png",
+			"type": "image",
+			"name": "label_03_png"
+		},
+		{
+			"url": "assets/Sprite/label_04.png",
+			"type": "image",
+			"name": "label_04_png"
+		},
+		{
+			"url": "assets/Sprite/line_01.png",
+			"type": "image",
+			"name": "line_01_png"
+		},
+		{
+			"url": "assets/Sprite/loading.png",
+			"type": "image",
+			"name": "loading_png"
+		},
+		{
+			"url": "assets/Sprite/loading_dorai.png",
+			"type": "image",
+			"name": "loading_dorai_png"
+		},
+		{
+			"url": "assets/Sprite/loading_off.png",
+			"type": "image",
+			"name": "loading_off_png"
+		},
+		{
+			"url": "assets/Sprite/loading_on.png",
+			"type": "image",
+			"name": "loading_on_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_ball_01.png",
+			"type": "image",
+			"name": "lottery_ball_01_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_ball_02.png",
+			"type": "image",
+			"name": "lottery_ball_02_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_ball_03.png",
+			"type": "image",
+			"name": "lottery_ball_03_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_ball_04.png",
+			"type": "image",
+			"name": "lottery_ball_04_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_ball_05.png",
+			"type": "image",
+			"name": "lottery_ball_05_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_dodai.png",
+			"type": "image",
+			"name": "lottery_dodai_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_frame_01.png",
+			"type": "image",
+			"name": "lottery_frame_01_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_frame_02.png",
+			"type": "image",
+			"name": "lottery_frame_02_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_frame_03.png",
+			"type": "image",
+			"name": "lottery_frame_03_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_frame_04.png",
+			"type": "image",
+			"name": "lottery_frame_04_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_frame_05.png",
+			"type": "image",
+			"name": "lottery_frame_05_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_hukubiki.png",
+			"type": "image",
+			"name": "lottery_hukubiki_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_keihin.png",
+			"type": "image",
+			"name": "lottery_keihin_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_mawasu.png",
+			"type": "image",
+			"name": "lottery_mawasu_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_syozi.png",
+			"type": "image",
+			"name": "lottery_syozi_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_tenpo_sita.png",
+			"type": "image",
+			"name": "lottery_tenpo_sita_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_tenpo_ue.png",
+			"type": "image",
+			"name": "lottery_tenpo_ue_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_zoom_frame.png",
+			"type": "image",
+			"name": "lottery_zoom_frame_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_zoom_tray_01.png",
+			"type": "image",
+			"name": "lottery_zoom_tray_01_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_zoom_tray_02.png",
+			"type": "image",
+			"name": "lottery_zoom_tray_02_png"
+		},
+		{
+			"url": "assets/Sprite/mail_hukubiki.png",
+			"type": "image",
+			"name": "mail_hukubiki_png"
+		},
+		{
+			"url": "assets/Sprite/mail_isigame.png",
+			"type": "image",
+			"name": "mail_isigame_png"
+		},
+		{
+			"url": "assets/Sprite/mail_katatsumuri.png",
+			"type": "image",
+			"name": "mail_katatsumuri_png"
+		},
+		{
+			"url": "assets/Sprite/mail_mitsubati.png",
+			"type": "image",
+			"name": "mail_mitsubati_png"
+		},
+		{
+			"url": "assets/Sprite/mail_mituba.png",
+			"type": "image",
+			"name": "mail_mituba_png"
+		},
+		{
+			"url": "assets/Sprite/mail_olluketori.png",
+			"type": "image",
+			"name": "mail_olluketori_png"
+		},
+		{
+			"url": "assets/Sprite/mail_tirashi.png",
+			"type": "image",
+			"name": "mail_tirashi_png"
+		},
+		{
+			"url": "assets/Sprite/mail_uketori.png",
+			"type": "image",
+			"name": "mail_uketori_png"
+		},
+		{
+			"url": "assets/Sprite/mail_yotuba.png",
+			"type": "image",
+			"name": "mail_yotuba_png"
+		},
+		{
+			"url": "assets/Sprite/meibutu.png",
+			"type": "image",
+			"name": "meibutu_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_01.png",
+			"type": "image",
+			"name": "meisyo_01_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_02.png",
+			"type": "image",
+			"name": "meisyo_02_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_03.png",
+			"type": "image",
+			"name": "meisyo_03_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_04.png",
+			"type": "image",
+			"name": "meisyo_04_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_05.png",
+			"type": "image",
+			"name": "meisyo_05_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_06.png",
+			"type": "image",
+			"name": "meisyo_06_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_07.png",
+			"type": "image",
+			"name": "meisyo_07_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_08.png",
+			"type": "image",
+			"name": "meisyo_08_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_09.png",
+			"type": "image",
+			"name": "meisyo_09_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_10.png",
+			"type": "image",
+			"name": "meisyo_10_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_01.png",
+			"type": "image",
+			"name": "meisyo_f_01_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_02.png",
+			"type": "image",
+			"name": "meisyo_f_02_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_03.png",
+			"type": "image",
+			"name": "meisyo_f_03_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_04.png",
+			"type": "image",
+			"name": "meisyo_f_04_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_05.png",
+			"type": "image",
+			"name": "meisyo_f_05_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_06.png",
+			"type": "image",
+			"name": "meisyo_f_06_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_07.png",
+			"type": "image",
+			"name": "meisyo_f_07_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_08.png",
+			"type": "image",
+			"name": "meisyo_f_08_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_09.png",
+			"type": "image",
+			"name": "meisyo_f_09_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_10.png",
+			"type": "image",
+			"name": "meisyo_f_10_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_11.png",
+			"type": "image",
+			"name": "meisyo_f_11_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_12.png",
+			"type": "image",
+			"name": "meisyo_f_12_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_13.png",
+			"type": "image",
+			"name": "meisyo_f_13_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_14.png",
+			"type": "image",
+			"name": "meisyo_f_14_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_01.png",
+			"type": "image",
+			"name": "meisyo_k_01_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_02.png",
+			"type": "image",
+			"name": "meisyo_k_02_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_03.png",
+			"type": "image",
+			"name": "meisyo_k_03_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_04.png",
+			"type": "image",
+			"name": "meisyo_k_04_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_05.png",
+			"type": "image",
+			"name": "meisyo_k_05_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_06.png",
+			"type": "image",
+			"name": "meisyo_k_06_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_07.png",
+			"type": "image",
+			"name": "meisyo_k_07_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_08.png",
+			"type": "image",
+			"name": "meisyo_k_08_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_09.png",
+			"type": "image",
+			"name": "meisyo_k_09_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_10.png",
+			"type": "image",
+			"name": "meisyo_k_10_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_01.png",
+			"type": "image",
+			"name": "meisyo_n_01_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_02.png",
+			"type": "image",
+			"name": "meisyo_n_02_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_03.png",
+			"type": "image",
+			"name": "meisyo_n_03_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_04.png",
+			"type": "image",
+			"name": "meisyo_n_04_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_05.png",
+			"type": "image",
+			"name": "meisyo_n_05_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_06.png",
+			"type": "image",
+			"name": "meisyo_n_06_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_07.png",
+			"type": "image",
+			"name": "meisyo_n_07_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_08.png",
+			"type": "image",
+			"name": "meisyo_n_08_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_09.png",
+			"type": "image",
+			"name": "meisyo_n_09_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_10.png",
+			"type": "image",
+			"name": "meisyo_n_10_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_01.png",
+			"type": "image",
+			"name": "meisyo_t_01_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_02.png",
+			"type": "image",
+			"name": "meisyo_t_02_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_03.png",
+			"type": "image",
+			"name": "meisyo_t_03_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_04.png",
+			"type": "image",
+			"name": "meisyo_t_04_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_05.png",
+			"type": "image",
+			"name": "meisyo_t_05_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_06.png",
+			"type": "image",
+			"name": "meisyo_t_06_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_07.png",
+			"type": "image",
+			"name": "meisyo_t_07_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_08.png",
+			"type": "image",
+			"name": "meisyo_t_08_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_09.png",
+			"type": "image",
+			"name": "meisyo_t_09_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_10.png",
+			"type": "image",
+			"name": "meisyo_t_10_png"
+		},
+		{
+			"url": "assets/Sprite/mitsubati_niwa.png",
+			"type": "image",
+			"name": "mitsubati_niwa_png"
+		},
+		{
+			"url": "assets/Sprite/mori_01.png",
+			"type": "image",
+			"name": "mori_01_png"
+		},
+		{
+			"url": "assets/Sprite/motimono.png",
+			"type": "image",
+			"name": "motimono_png"
+		},
+		{
+			"url": "assets/Sprite/motimono_tuuti.png",
+			"type": "image",
+			"name": "motimono_tuuti_png"
+		},
+		{
+			"url": "assets/Sprite/nekko_01.png",
+			"type": "image",
+			"name": "nekko_01_png"
+		},
+		{
+			"url": "assets/Sprite/no.png",
+			"type": "image",
+			"name": "no_png"
+		},
+		{
+			"url": "assets/Sprite/off_off.png",
+			"type": "image",
+			"name": "off_off_png"
+		},
+		{
+			"url": "assets/Sprite/off_on.png",
+			"type": "image",
+			"name": "off_on_png"
+		},
+		{
+			"url": "assets/Sprite/ok.png",
+			"type": "image",
+			"name": "ok_png"
+		},
+		{
+			"url": "assets/Sprite/omiyage.png",
+			"type": "image",
+			"name": "omiyage_png"
+		},
+		{
+			"url": "assets/Sprite/on_off.png",
+			"type": "image",
+			"name": "on_off_png"
+		},
+		{
+			"url": "assets/Sprite/on_on.png",
+			"type": "image",
+			"name": "on_on_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_01.png",
+			"type": "image",
+			"name": "otiba_01_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_02.png",
+			"type": "image",
+			"name": "otiba_02_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_03.png",
+			"type": "image",
+			"name": "otiba_03_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_04.png",
+			"type": "image",
+			"name": "otiba_04_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_05.png",
+			"type": "image",
+			"name": "otiba_05_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_06.png",
+			"type": "image",
+			"name": "otiba_06_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_07.png",
+			"type": "image",
+			"name": "otiba_07_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_08.png",
+			"type": "image",
+			"name": "otiba_08_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_09.png",
+			"type": "image",
+			"name": "otiba_09_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_10.png",
+			"type": "image",
+			"name": "otiba_10_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_11.png",
+			"type": "image",
+			"name": "otiba_11_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_12.png",
+			"type": "image",
+			"name": "otiba_12_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_13.png",
+			"type": "image",
+			"name": "otiba_13_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_14.png",
+			"type": "image",
+			"name": "otiba_14_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_15.png",
+			"type": "image",
+			"name": "otiba_15_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_16.png",
+			"type": "image",
+			"name": "otiba_16_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_17.png",
+			"type": "image",
+			"name": "otiba_17_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_18.png",
+			"type": "image",
+			"name": "otiba_18_png"
+		},
+		{
+			"url": "assets/Sprite/page_01.png",
+			"type": "image",
+			"name": "page_01_png"
+		},
+		{
+			"url": "assets/Sprite/page_02.png",
+			"type": "image",
+			"name": "page_02_png"
+		},
+		{
+			"url": "assets/Sprite/photo_frame.png",
+			"type": "image",
+			"name": "photo_frame_png"
+		},
+		{
+			"url": "assets/Sprite/question.png",
+			"type": "image",
+			"name": "question_png"
+		},
+		{
+			"url": "assets/Sprite/r1.png",
+			"type": "image",
+			"name": "r1_png"
+		},
+		{
+			"url": "assets/Sprite/r2.png",
+			"type": "image",
+			"name": "r2_png"
+		},
+		{
+			"url": "assets/Sprite/raffle_84_88.png",
+			"type": "image",
+			"name": "raffle_84_88_png"
+		},
+		{
+			"url": "assets/Sprite/sagyou_ie.png",
+			"type": "image",
+			"name": "sagyou_ie_png"
+		},
+		{
+			"url": "assets/Sprite/saku_01.png",
+			"type": "image",
+			"name": "saku_01_png"
+		},
+		{
+			"url": "assets/Sprite/saku_02.png",
+			"type": "image",
+			"name": "saku_02_png"
+		},
+		{
+			"url": "assets/Sprite/saku_03.png",
+			"type": "image",
+			"name": "saku_03_png"
+		},
+		{
+			"url": "assets/Sprite/scroll_l.png",
+			"type": "image",
+			"name": "scroll_l_png"
+		},
+		{
+			"url": "assets/Sprite/scroll_r.png",
+			"type": "image",
+			"name": "scroll_r_png"
+		},
+		{
+			"url": "assets/Sprite/se.png",
+			"type": "image",
+			"name": "se_png"
+		},
+		{
+			"url": "assets/Sprite/se_off.png",
+			"type": "image",
+			"name": "se_off_png"
+		},
+		{
+			"url": "assets/Sprite/se_on.png",
+			"type": "image",
+			"name": "se_on_png"
+		},
+		{
+			"url": "assets/Sprite/sentaku.png",
+			"type": "image",
+			"name": "sentaku_png"
+		},
+		{
+			"url": "assets/Sprite/settei.png",
+			"type": "image",
+			"name": "settei_png"
+		},
+		{
+			"url": "assets/Sprite/share_android.png",
+			"type": "image",
+			"name": "share_android_png"
+		},
+		{
+			"url": "assets/Sprite/share_ios.png",
+			"type": "image",
+			"name": "share_ios_png"
+		},
+		{
+			"url": "assets/Sprite/shop_kago_b.png",
+			"type": "image",
+			"name": "shop_kago_b_png"
+		},
+		{
+			"url": "assets/Sprite/shop_kago_g.png",
+			"type": "image",
+			"name": "shop_kago_g_png"
+		},
+		{
+			"url": "assets/Sprite/shop_kago_p.png",
+			"type": "image",
+			"name": "shop_kago_p_png"
+		},
+		{
+			"url": "assets/Sprite/shop_kago_y.png",
+			"type": "image",
+			"name": "shop_kago_y_png"
+		},
+		{
+			"url": "assets/Sprite/shop_koumoku.png",
+			"type": "image",
+			"name": "shop_koumoku_png"
+		},
+		{
+			"url": "assets/Sprite/shop_kounyuu.png",
+			"type": "image",
+			"name": "shop_kounyuu_png"
+		},
+		{
+			"url": "assets/Sprite/shop_setumei.png",
+			"type": "image",
+			"name": "shop_setumei_png"
+		},
+		{
+			"url": "assets/Sprite/shop_tana.png",
+			"type": "image",
+			"name": "shop_tana_png"
+		},
+		{
+			"url": "assets/Sprite/shop_tenpo_sita.png",
+			"type": "image",
+			"name": "shop_tenpo_sita_png"
+		},
+		{
+			"url": "assets/Sprite/shop_tenpo_ue.png",
+			"type": "image",
+			"name": "shop_tenpo_ue_png"
+		},
+		{
+			"url": "assets/Sprite/shop_urikire.png",
+			"type": "image",
+			"name": "shop_urikire_png"
+		},
+		{
+			"url": "assets/Sprite/sitaku_ie.png",
+			"type": "image",
+			"name": "sitaku_ie_png"
+		},
+		{
+			"url": "assets/Sprite/slider_a.png",
+			"type": "image",
+			"name": "slider_a_png"
+		},
+		{
+			"url": "assets/Sprite/slider_b.png",
+			"type": "image",
+			"name": "slider_b_png"
+		},
+		{
+			"url": "assets/Sprite/sora_01.png",
+			"type": "image",
+			"name": "sora_01_png"
+		},
+		{
+			"url": "assets/Sprite/sora_02.png",
+			"type": "image",
+			"name": "sora_02_png"
+		},
+		{
+			"url": "assets/Sprite/sora_03.png",
+			"type": "image",
+			"name": "sora_03_png"
+		},
+		{
+			"url": "assets/Sprite/sora_04.png",
+			"type": "image",
+			"name": "sora_04_png"
+		},
+		{
+			"url": "assets/Sprite/sora_05.png",
+			"type": "image",
+			"name": "sora_05_png"
+		},
+		{
+			"url": "assets/Sprite/sora_06.png",
+			"type": "image",
+			"name": "sora_06_png"
+		},
+		{
+			"url": "assets/Sprite/sora_07.png",
+			"type": "image",
+			"name": "sora_07_png"
+		},
+		{
+			"url": "assets/Sprite/sora_08.png",
+			"type": "image",
+			"name": "sora_08_png"
+		},
+		{
+			"url": "assets/Sprite/sora_09.png",
+			"type": "image",
+			"name": "sora_09_png"
+		},
+		{
+			"url": "assets/Sprite/sora_10.png",
+			"type": "image",
+			"name": "sora_10_png"
+		},
+		{
+			"url": "assets/Sprite/sora_11.png",
+			"type": "image",
+			"name": "sora_11_png"
+		},
+		{
+			"url": "assets/Sprite/sora_12.png",
+			"type": "image",
+			"name": "sora_12_png"
+		},
+		{
+			"url": "assets/Sprite/sousin.png",
+			"type": "image",
+			"name": "sousin_png"
+		},
+		{
+			"url": "assets/Sprite/start.png",
+			"type": "image",
+			"name": "start_png"
+		},
+		{
+			"url": "assets/Sprite/sumi.png",
+			"type": "image",
+			"name": "sumi_png"
+		},
+		{
+			"url": "assets/Sprite/syokuzi_ie.png",
+			"type": "image",
+			"name": "syokuzi_ie_png"
+		},
+		{
+			"url": "assets/Sprite/syougou.png",
+			"type": "image",
+			"name": "syougou_png"
+		},
+		{
+			"url": "assets/Sprite/sys_clover_window.png",
+			"type": "image",
+			"name": "sys_clover_window_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_0.png",
+			"type": "image",
+			"name": "sys_num_20_29_0_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_1.png",
+			"type": "image",
+			"name": "sys_num_20_29_1_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_2.png",
+			"type": "image",
+			"name": "sys_num_20_29_2_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_3.png",
+			"type": "image",
+			"name": "sys_num_20_29_3_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_4.png",
+			"type": "image",
+			"name": "sys_num_20_29_4_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_5.png",
+			"type": "image",
+			"name": "sys_num_20_29_5_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_6.png",
+			"type": "image",
+			"name": "sys_num_20_29_6_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_7.png",
+			"type": "image",
+			"name": "sys_num_20_29_7_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_8.png",
+			"type": "image",
+			"name": "sys_num_20_29_8_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_9.png",
+			"type": "image",
+			"name": "sys_num_20_29_9_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_0.png",
+			"type": "image",
+			"name": "sys_num_24_36_0_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_1.png",
+			"type": "image",
+			"name": "sys_num_24_36_1_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_2.png",
+			"type": "image",
+			"name": "sys_num_24_36_2_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_3.png",
+			"type": "image",
+			"name": "sys_num_24_36_3_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_4.png",
+			"type": "image",
+			"name": "sys_num_24_36_4_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_5.png",
+			"type": "image",
+			"name": "sys_num_24_36_5_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_6.png",
+			"type": "image",
+			"name": "sys_num_24_36_6_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_7.png",
+			"type": "image",
+			"name": "sys_num_24_36_7_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_8.png",
+			"type": "image",
+			"name": "sys_num_24_36_8_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_9.png",
+			"type": "image",
+			"name": "sys_num_24_36_9_png"
+		},
+		{
+			"url": "assets/Sprite/tab_dougu_off.png",
+			"type": "image",
+			"name": "tab_dougu_off_png"
+		},
+		{
+			"url": "assets/Sprite/tab_dougu_on.png",
+			"type": "image",
+			"name": "tab_dougu_on_png"
+		},
+		{
+			"url": "assets/Sprite/tab_meibutsu_off.png",
+			"type": "image",
+			"name": "tab_meibutsu_off_png"
+		},
+		{
+			"url": "assets/Sprite/tab_meibutsu_on.png",
+			"type": "image",
+			"name": "tab_meibutsu_on_png"
+		},
+		{
+			"url": "assets/Sprite/tab_obentou_off.png",
+			"type": "image",
+			"name": "tab_obentou_off_png"
+		},
+		{
+			"url": "assets/Sprite/tab_obentou_on.png",
+			"type": "image",
+			"name": "tab_obentou_on_png"
+		},
+		{
+			"url": "assets/Sprite/tab_omamori_off.png",
+			"type": "image",
+			"name": "tab_omamori_off_png"
+		},
+		{
+			"url": "assets/Sprite/tab_omamori_on.png",
+			"type": "image",
+			"name": "tab_omamori_on_png"
+		},
+		{
+			"url": "assets/Sprite/title.png",
+			"type": "image",
+			"name": "title_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_01.png",
+			"type": "image",
+			"name": "tokusyu_01_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_02.png",
+			"type": "image",
+			"name": "tokusyu_02_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_03.png",
+			"type": "image",
+			"name": "tokusyu_03_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_05.png",
+			"type": "image",
+			"name": "tokusyu_05_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_05_f.png",
+			"type": "image",
+			"name": "tokusyu_05_f_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_05_k.png",
+			"type": "image",
+			"name": "tokusyu_05_k_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_05_n.png",
+			"type": "image",
+			"name": "tokusyu_05_n_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_05_t.png",
+			"type": "image",
+			"name": "tokusyu_05_t_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_06.png",
+			"type": "image",
+			"name": "tokusyu_06_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_07.png",
+			"type": "image",
+			"name": "tokusyu_07_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_08.png",
+			"type": "image",
+			"name": "tokusyu_08_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_09.png",
+			"type": "image",
+			"name": "tokusyu_09_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_10.png",
+			"type": "image",
+			"name": "tokusyu_10_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_11.png",
+			"type": "image",
+			"name": "tokusyu_11_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_12.png",
+			"type": "image",
+			"name": "tokusyu_12_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_13.png",
+			"type": "image",
+			"name": "tokusyu_13_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_14.png",
+			"type": "image",
+			"name": "tokusyu_14_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_15.png",
+			"type": "image",
+			"name": "tokusyu_15_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_16.png",
+			"type": "image",
+			"name": "tokusyu_16_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_17.png",
+			"type": "image",
+			"name": "tokusyu_17_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_17_f.png",
+			"type": "image",
+			"name": "tokusyu_17_f_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_17_k.png",
+			"type": "image",
+			"name": "tokusyu_17_k_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_17_n.png",
+			"type": "image",
+			"name": "tokusyu_17_n_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_17_t.png",
+			"type": "image",
+			"name": "tokusyu_17_t_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_18.png",
+			"type": "image",
+			"name": "tokusyu_18_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_19.png",
+			"type": "image",
+			"name": "tokusyu_19_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_19_k.png",
+			"type": "image",
+			"name": "tokusyu_19_k_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_19_n.png",
+			"type": "image",
+			"name": "tokusyu_19_n_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_19_t.png",
+			"type": "image",
+			"name": "tokusyu_19_t_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_20.png",
+			"type": "image",
+			"name": "tokusyu_20_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_21.png",
+			"type": "image",
+			"name": "tokusyu_21_png"
+		},
+		{
+			"url": "assets/Sprite/torihikiho_button.png",
+			"type": "image",
+			"name": "torihikiho_button_png"
+		},
+		{
+			"url": "assets/Sprite/tsukue.png",
+			"type": "image",
+			"name": "tsukue_png"
+		},
+		{
+			"url": "assets/Sprite/tsukue_frame_01.png",
+			"type": "image",
+			"name": "tsukue_frame_01_png"
+		},
+		{
+			"url": "assets/Sprite/tsukue_frame_02.png",
+			"type": "image",
+			"name": "tsukue_frame_02_png"
+		},
+		{
+			"url": "assets/Sprite/tsukue_frame_03.png",
+			"type": "image",
+			"name": "tsukue_frame_03_png"
+		},
+		{
+			"url": "assets/Sprite/tuuti.png",
+			"type": "image",
+			"name": "tuuti_png"
+		},
+		{
+			"url": "assets/Sprite/umi_01.png",
+			"type": "image",
+			"name": "umi_01_png"
+		},
+		{
+			"url": "assets/Sprite/umi_02.png",
+			"type": "image",
+			"name": "umi_02_png"
+		},
+		{
+			"url": "assets/Sprite/umi_03.png",
+			"type": "image",
+			"name": "umi_03_png"
+		},
+		{
+			"url": "assets/Sprite/umi_04.png",
+			"type": "image",
+			"name": "umi_04_png"
+		},
+		{
+			"url": "assets/Sprite/umi_05.png",
+			"type": "image",
+			"name": "umi_05_png"
+		},
+		{
+			"url": "assets/Sprite/umi_06.png",
+			"type": "image",
+			"name": "umi_06_png"
+		},
+		{
+			"url": "assets/Sprite/urabeya.png",
+			"type": "image",
+			"name": "urabeya_png"
+		},
+		{
+			"url": "assets/Sprite/volume_cursor.png",
+			"type": "image",
+			"name": "volume_cursor_png"
+		},
+		{
+			"url": "assets/Sprite/volume_off.png",
+			"type": "image",
+			"name": "volume_off_png"
+		},
+		{
+			"url": "assets/Sprite/volume_on.png",
+			"type": "image",
+			"name": "volume_on_png"
+		},
+		{
+			"url": "assets/Sprite/yama_01.png",
+			"type": "image",
+			"name": "yama_01_png"
+		},
+		{
+			"url": "assets/Sprite/yama_02.png",
+			"type": "image",
+			"name": "yama_02_png"
+		},
+		{
+			"url": "assets/Sprite/yama_03.png",
+			"type": "image",
+			"name": "yama_03_png"
+		},
+		{
+			"url": "assets/Sprite/yes.png",
+			"type": "image",
+			"name": "yes_png"
+		},
+		{
+			"url": "assets/Sprite/yubisasi_a.png",
+			"type": "image",
+			"name": "yubisasi_a_png"
+		},
+		{
+			"url": "assets/Sprite/yubisasi_b.png",
+			"type": "image",
+			"name": "yubisasi_b_png"
+		},
+		{
+			"url": "assets/Sprite/yubisasi_c.png",
+			"type": "image",
+			"name": "yubisasi_c_png"
+		},
+		{
+			"url": "assets/Sprite/yubisasi_d.png",
+			"type": "image",
+			"name": "yubisasi_d_png"
+		},
+		{
+			"url": "assets/Sprite/yuubin.png",
+			"type": "image",
+			"name": "yuubin_png"
+		},
+		{
+			"url": "assets/Sprite/zimen_01.png",
+			"type": "image",
+			"name": "zimen_01_png"
+		},
+		{
+			"url": "assets/Sprite/zimen_02.png",
+			"type": "image",
+			"name": "zimen_02_png"
+		},
+		{
+			"url": "assets/Sprite/zukan_dodai.png",
+			"type": "image",
+			"name": "zukan_dodai_png"
+		},
+		{
+			"url": "assets/Sprite/zukan_ippin_off.png",
+			"type": "image",
+			"name": "zukan_ippin_off_png"
+		},
+		{
+			"url": "assets/Sprite/zukan_ippin_on.png",
+			"type": "image",
+			"name": "zukan_ippin_on_png"
+		},
+		{
+			"url": "assets/Sprite/zukan_meibutsu_off.png",
+			"type": "image",
+			"name": "zukan_meibutsu_off_png"
+		},
+		{
+			"url": "assets/Sprite/zukan_meibutsu_on.png",
+			"type": "image",
+			"name": "zukan_meibutsu_on_png"
+		},
+		{
+			"url": "assets/Sprite/zukan_panel.png",
+			"type": "image",
+			"name": "zukan_panel_png"
+		},
+		{
+			"url": "assets/Sprite/zukan_santi.png",
+			"type": "image",
+			"name": "zukan_santi_png"
+		},
+		{
+			"url": "assets/Sprite/zukan_title.png",
+			"type": "image",
+			"name": "zukan_title_png"
+		},
+		{
+			"url": "assets/Font/Arial.ttf",
+			"type": "bin",
+			"name": "Arial_ttf"
+		},
+		{
+			"url": "assets/Font/mplus-2c-black.ttf",
+			"type": "bin",
+			"name": "mplus-2c-black_ttf"
+		},
+		{
+			"url": "assets/Font/mplus-2c-bold.ttf",
+			"type": "bin",
+			"name": "mplus-2c-bold_ttf"
+		},
+		{
+			"url": "assets/Font/mplus-2c-heavy.ttf",
+			"type": "bin",
+			"name": "mplus-2c-heavy_ttf"
+		},
+		{
+			"url": "assets/Font/mplus-2c-light.ttf",
+			"type": "bin",
+			"name": "mplus-2c-light_ttf"
+		},
+		{
+			"url": "assets/Font/mplus-2c-medium.ttf",
+			"type": "bin",
+			"name": "mplus-2c-medium_ttf"
+		},
+		{
+			"url": "assets/Font/mplus-2c-regular.ttf",
+			"type": "bin",
+			"name": "mplus-2c-regular_ttf"
+		},
+		{
+			"url": "assets/Font/mplus-2c-thin.ttf",
+			"type": "bin",
+			"name": "mplus-2c-thin_ttf"
+		},
+		{
+			"url": "assets/AudioClip/bgm01.wav",
+			"type": "sound",
+			"name": "bgm01_wav"
+		},
+		{
+			"url": "assets/AudioClip/se01.wav",
+			"type": "sound",
+			"name": "se01_wav"
+		},
+		{
+			"url": "assets/AudioClip/se02.wav",
+			"type": "sound",
+			"name": "se02_wav"
+		},
+		{
+			"url": "assets/AudioClip/se03.wav",
+			"type": "sound",
+			"name": "se03_wav"
+		},
+		{
+			"url": "assets/AudioClip/se04.wav",
+			"type": "sound",
+			"name": "se04_wav"
+		},
+		{
+			"url": "assets/AudioClip/se05.wav",
+			"type": "sound",
+			"name": "se05_wav"
+		},
+		{
+			"url": "assets/AudioClip/se06.wav",
+			"type": "sound",
+			"name": "se06_wav"
+		},
+		{
+			"url": "assets/AudioClip/se07.wav",
+			"type": "sound",
+			"name": "se07_wav"
+		},
+		{
+			"url": "assets/AudioClip/se079_Homes.wav",
+			"type": "sound",
+			"name": "se079_Homes_wav"
+		},
+		{
+			"url": "assets/AudioClip/se08.wav",
+			"type": "sound",
+			"name": "se08_wav"
+		},
+		{
+			"url": "assets/AudioClip/se080_Homes.wav",
+			"type": "sound",
+			"name": "se080_Homes_wav"
+		},
+		{
+			"url": "assets/AudioClip/se09.wav",
+			"type": "sound",
+			"name": "se09_wav"
+		},
+		{
+			"url": "assets/AudioClip/se10.wav",
+			"type": "sound",
+			"name": "se10_wav"
+		},
+		{
+			"url": "assets/AudioClip/se11.wav",
+			"type": "sound",
+			"name": "se11_wav"
+		},
+		{
+			"url": "assets/AudioClip/se115_Hyakki.wav",
+			"type": "sound",
+			"name": "se115_Hyakki_wav"
+		},
+		{
+			"url": "assets/AudioClip/se12.wav",
+			"type": "sound",
+			"name": "se12_wav"
+		},
+		{
+			"url": "assets/AudioClip/bgm01.wav",
+			"type": "sound",
+			"name": "bgm012_wav"
+		},
+		{
+			"url": "assets/AudioClip/se01.wav",
+			"type": "sound",
+			"name": "se012_wav"
+		},
+		{
+			"url": "assets/AudioClip/se02.wav",
+			"type": "sound",
+			"name": "se022_wav"
+		},
+		{
+			"url": "assets/AudioClip/se03.wav",
+			"type": "sound",
+			"name": "se032_wav"
+		},
+		{
+			"url": "assets/AudioClip/se04.wav",
+			"type": "sound",
+			"name": "se042_wav"
+		},
+		{
+			"url": "assets/AudioClip/se05.wav",
+			"type": "sound",
+			"name": "se052_wav"
+		},
+		{
+			"url": "assets/AudioClip/se06.wav",
+			"type": "sound",
+			"name": "se062_wav"
+		},
+		{
+			"url": "assets/AudioClip/se07.wav",
+			"type": "sound",
+			"name": "se072_wav"
+		},
+		{
+			"url": "assets/AudioClip/se079_Homes.wav",
+			"type": "sound",
+			"name": "se079_Homes2_wav"
+		},
+		{
+			"url": "assets/AudioClip/se08.wav",
+			"type": "sound",
+			"name": "se082_wav"
+		},
+		{
+			"url": "assets/AudioClip/se080_Homes.wav",
+			"type": "sound",
+			"name": "se080_Homes2_wav"
+		},
+		{
+			"url": "assets/AudioClip/se09.wav",
+			"type": "sound",
+			"name": "se092_wav"
+		},
+		{
+			"url": "assets/AudioClip/se10.wav",
+			"type": "sound",
+			"name": "se102_wav"
+		},
+		{
+			"url": "assets/AudioClip/se11.wav",
+			"type": "sound",
+			"name": "se112_wav"
+		},
+		{
+			"url": "assets/AudioClip/se115_Hyakki.wav",
+			"type": "sound",
+			"name": "se115_Hyakki2_wav"
+		},
+		{
+			"url": "assets/AudioClip/se12.wav",
+			"type": "sound",
+			"name": "se122_wav"
+		},
+		{
+			"url": "assets/Sprite/album.png",
+			"type": "image",
+			"name": "album3_png"
+		},
+		{
+			"url": "assets/Sprite/album_150_150.png",
+			"type": "image",
+			"name": "album_150_1503_png"
+		},
+		{
+			"url": "assets/Sprite/album_dodai.png",
+			"type": "image",
+			"name": "album_dodai3_png"
+		},
+		{
+			"url": "assets/Sprite/asphalt_01.png",
+			"type": "image",
+			"name": "asphalt_013_png"
+		},
+		{
+			"url": "assets/Sprite/Background.png",
+			"type": "image",
+			"name": "Background3_png"
+		},
+		{
+			"url": "assets/Sprite/back_mainIn.png",
+			"type": "image",
+			"name": "back_mainIn3_png"
+		},
+		{
+			"url": "assets/Sprite/back_mainOut_2_L.png",
+			"type": "image",
+			"name": "back_mainOut_2_L3_png"
+		},
+		{
+			"url": "assets/Sprite/back_mainOut_2_R.png",
+			"type": "image",
+			"name": "back_mainOut_2_R3_png"
+		},
+		{
+			"url": "assets/Sprite/bgm.png",
+			"type": "image",
+			"name": "bgm3_png"
+		},
+		{
+			"url": "assets/Sprite/bgm_off.png",
+			"type": "image",
+			"name": "bgm_off3_png"
+		},
+		{
+			"url": "assets/Sprite/bgm_on.png",
+			"type": "image",
+			"name": "bgm_on3_png"
+		},
+		{
+			"url": "assets/Sprite/bousi_ie.png",
+			"type": "image",
+			"name": "bousi_ie3_png"
+		},
+		{
+			"url": "assets/Sprite/button_01.png",
+			"type": "image",
+			"name": "button_013_png"
+		},
+		{
+			"url": "assets/Sprite/button_02.png",
+			"type": "image",
+			"name": "button_023_png"
+		},
+		{
+			"url": "assets/Sprite/button_03.png",
+			"type": "image",
+			"name": "button_033_png"
+		},
+		{
+			"url": "assets/Sprite/button_04.png",
+			"type": "image",
+			"name": "button_043_png"
+		},
+		{
+			"url": "assets/Sprite/button_05.png",
+			"type": "image",
+			"name": "button_053_png"
+		},
+		{
+			"url": "assets/Sprite/button_empty.png",
+			"type": "image",
+			"name": "button_empty3_png"
+		},
+		{
+			"url": "assets/Sprite/cancel.png",
+			"type": "image",
+			"name": "cancel3_png"
+		},
+		{
+			"url": "assets/Sprite/checkmark #293202.png",
+			"type": "image",
+			"name": "checkmark #2932022_png"
+		},
+		{
+			"url": "assets/Sprite/Checkmark.png",
+			"type": "image",
+			"name": "Checkmark3_png"
+		},
+		{
+			"url": "assets/Sprite/close.png",
+			"type": "image",
+			"name": "close3_png"
+		},
+		{
+			"url": "assets/Sprite/clover_154.png",
+			"type": "image",
+			"name": "clover_1543_png"
+		},
+		{
+			"url": "assets/Sprite/clover_160.png",
+			"type": "image",
+			"name": "clover_1603_png"
+		},
+		{
+			"url": "assets/Sprite/clover_166.png",
+			"type": "image",
+			"name": "clover_1663_png"
+		},
+		{
+			"url": "assets/Sprite/clover_kounyuu.png",
+			"type": "image",
+			"name": "clover_kounyuu3_png"
+		},
+		{
+			"url": "assets/Sprite/clover_kounyuu_button.png",
+			"type": "image",
+			"name": "clover_kounyuu_button3_png"
+		},
+		{
+			"url": "assets/Sprite/collection_0.png",
+			"type": "image",
+			"name": "collection_02_png"
+		},
+		{
+			"url": "assets/Sprite/collection_1.png",
+			"type": "image",
+			"name": "collection_110_png"
+		},
+		{
+			"url": "assets/Sprite/collection_10.png",
+			"type": "image",
+			"name": "collection_102_png"
+		},
+		{
+			"url": "assets/Sprite/collection_11.png",
+			"type": "image",
+			"name": "collection_112_png"
+		},
+		{
+			"url": "assets/Sprite/collection_12.png",
+			"type": "image",
+			"name": "collection_122_png"
+		},
+		{
+			"url": "assets/Sprite/collection_13.png",
+			"type": "image",
+			"name": "collection_132_png"
+		},
+		{
+			"url": "assets/Sprite/collection_14.png",
+			"type": "image",
+			"name": "collection_142_png"
+		},
+		{
+			"url": "assets/Sprite/collection_15.png",
+			"type": "image",
+			"name": "collection_152_png"
+		},
+		{
+			"url": "assets/Sprite/collection_150_150.png",
+			"type": "image",
+			"name": "collection_150_1503_png"
+		},
+		{
+			"url": "assets/Sprite/collection_16.png",
+			"type": "image",
+			"name": "collection_162_png"
+		},
+		{
+			"url": "assets/Sprite/collection_17.png",
+			"type": "image",
+			"name": "collection_172_png"
+		},
+		{
+			"url": "assets/Sprite/collection_18.png",
+			"type": "image",
+			"name": "collection_182_png"
+		},
+		{
+			"url": "assets/Sprite/collection_19.png",
+			"type": "image",
+			"name": "collection_192_png"
+		},
+		{
+			"url": "assets/Sprite/collection_2.png",
+			"type": "image",
+			"name": "collection_210_png"
+		},
+		{
+			"url": "assets/Sprite/collection_20.png",
+			"type": "image",
+			"name": "collection_202_png"
+		},
+		{
+			"url": "assets/Sprite/collection_21.png",
+			"type": "image",
+			"name": "collection_212_png"
+		},
+		{
+			"url": "assets/Sprite/collection_22.png",
+			"type": "image",
+			"name": "collection_222_png"
+		},
+		{
+			"url": "assets/Sprite/collection_23.png",
+			"type": "image",
+			"name": "collection_232_png"
+		},
+		{
+			"url": "assets/Sprite/collection_24.png",
+			"type": "image",
+			"name": "collection_242_png"
+		},
+		{
+			"url": "assets/Sprite/collection_25.png",
+			"type": "image",
+			"name": "collection_252_png"
+		},
+		{
+			"url": "assets/Sprite/collection_26.png",
+			"type": "image",
+			"name": "collection_262_png"
+		},
+		{
+			"url": "assets/Sprite/collection_27.png",
+			"type": "image",
+			"name": "collection_272_png"
+		},
+		{
+			"url": "assets/Sprite/collection_28.png",
+			"type": "image",
+			"name": "collection_282_png"
+		},
+		{
+			"url": "assets/Sprite/collection_29.png",
+			"type": "image",
+			"name": "collection_292_png"
+		},
+		{
+			"url": "assets/Sprite/collection_3.png",
+			"type": "image",
+			"name": "collection_310_png"
+		},
+		{
+			"url": "assets/Sprite/collection_30.png",
+			"type": "image",
+			"name": "collection_302_png"
+		},
+		{
+			"url": "assets/Sprite/collection_31.png",
+			"type": "image",
+			"name": "collection_312_png"
+		},
+		{
+			"url": "assets/Sprite/collection_32.png",
+			"type": "image",
+			"name": "collection_322_png"
+		},
+		{
+			"url": "assets/Sprite/collection_33.png",
+			"type": "image",
+			"name": "collection_332_png"
+		},
+		{
+			"url": "assets/Sprite/collection_34.png",
+			"type": "image",
+			"name": "collection_342_png"
+		},
+		{
+			"url": "assets/Sprite/collection_35.png",
+			"type": "image",
+			"name": "collection_352_png"
+		},
+		{
+			"url": "assets/Sprite/collection_36.png",
+			"type": "image",
+			"name": "collection_362_png"
+		},
+		{
+			"url": "assets/Sprite/collection_37.png",
+			"type": "image",
+			"name": "collection_372_png"
+		},
+		{
+			"url": "assets/Sprite/collection_38.png",
+			"type": "image",
+			"name": "collection_382_png"
+		},
+		{
+			"url": "assets/Sprite/collection_39.png",
+			"type": "image",
+			"name": "collection_392_png"
+		},
+		{
+			"url": "assets/Sprite/collection_4.png",
+			"type": "image",
+			"name": "collection_410_png"
+		},
+		{
+			"url": "assets/Sprite/collection_40.png",
+			"type": "image",
+			"name": "collection_402_png"
+		},
+		{
+			"url": "assets/Sprite/collection_41.png",
+			"type": "image",
+			"name": "collection_412_png"
+		},
+		{
+			"url": "assets/Sprite/collection_42.png",
+			"type": "image",
+			"name": "collection_422_png"
+		},
+		{
+			"url": "assets/Sprite/collection_43.png",
+			"type": "image",
+			"name": "collection_432_png"
+		},
+		{
+			"url": "assets/Sprite/collection_44.png",
+			"type": "image",
+			"name": "collection_442_png"
+		},
+		{
+			"url": "assets/Sprite/collection_45.png",
+			"type": "image",
+			"name": "collection_452_png"
+		},
+		{
+			"url": "assets/Sprite/collection_46.png",
+			"type": "image",
+			"name": "collection_462_png"
+		},
+		{
+			"url": "assets/Sprite/collection_47.png",
+			"type": "image",
+			"name": "collection_472_png"
+		},
+		{
+			"url": "assets/Sprite/collection_48.png",
+			"type": "image",
+			"name": "collection_482_png"
+		},
+		{
+			"url": "assets/Sprite/collection_49.png",
+			"type": "image",
+			"name": "collection_492_png"
+		},
+		{
+			"url": "assets/Sprite/collection_5.png",
+			"type": "image",
+			"name": "collection_59_png"
+		},
+		{
+			"url": "assets/Sprite/collection_50.png",
+			"type": "image",
+			"name": "collection_502_png"
+		},
+		{
+			"url": "assets/Sprite/collection_51.png",
+			"type": "image",
+			"name": "collection_512_png"
+		},
+		{
+			"url": "assets/Sprite/collection_52.png",
+			"type": "image",
+			"name": "collection_522_png"
+		},
+		{
+			"url": "assets/Sprite/collection_53.png",
+			"type": "image",
+			"name": "collection_532_png"
+		},
+		{
+			"url": "assets/Sprite/collection_54.png",
+			"type": "image",
+			"name": "collection_542_png"
+		},
+		{
+			"url": "assets/Sprite/collection_55.png",
+			"type": "image",
+			"name": "collection_552_png"
+		},
+		{
+			"url": "assets/Sprite/collection_56.png",
+			"type": "image",
+			"name": "collection_562_png"
+		},
+		{
+			"url": "assets/Sprite/collection_57.png",
+			"type": "image",
+			"name": "collection_572_png"
+		},
+		{
+			"url": "assets/Sprite/collection_58.png",
+			"type": "image",
+			"name": "collection_582_png"
+		},
+		{
+			"url": "assets/Sprite/collection_6.png",
+			"type": "image",
+			"name": "collection_62_png"
+		},
+		{
+			"url": "assets/Sprite/collection_7.png",
+			"type": "image",
+			"name": "collection_72_png"
+		},
+		{
+			"url": "assets/Sprite/collection_8.png",
+			"type": "image",
+			"name": "collection_82_png"
+		},
+		{
+			"url": "assets/Sprite/collection_9.png",
+			"type": "image",
+			"name": "collection_92_png"
+		},
+		{
+			"url": "assets/Sprite/dokusyo_ie.png",
+			"type": "image",
+			"name": "dokusyo_ie3_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_01.png",
+			"type": "image",
+			"name": "dougu_013_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_01_2.png",
+			"type": "image",
+			"name": "dougu_01_23_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_01_3.png",
+			"type": "image",
+			"name": "dougu_01_33_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_01_4.png",
+			"type": "image",
+			"name": "dougu_01_43_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_02.png",
+			"type": "image",
+			"name": "dougu_023_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_02_2.png",
+			"type": "image",
+			"name": "dougu_02_23_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_02_3.png",
+			"type": "image",
+			"name": "dougu_02_33_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_02_4.png",
+			"type": "image",
+			"name": "dougu_02_43_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_03.png",
+			"type": "image",
+			"name": "dougu_033_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_03_2.png",
+			"type": "image",
+			"name": "dougu_03_23_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_03_3.png",
+			"type": "image",
+			"name": "dougu_03_33_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_03_4.png",
+			"type": "image",
+			"name": "dougu_03_43_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_04.png",
+			"type": "image",
+			"name": "dougu_043_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_05.png",
+			"type": "image",
+			"name": "dougu_053_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_01.png",
+			"type": "image",
+			"name": "dougu_f_013_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_02.png",
+			"type": "image",
+			"name": "dougu_f_023_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_03.png",
+			"type": "image",
+			"name": "dougu_f_033_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_04.png",
+			"type": "image",
+			"name": "dougu_f_043_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_05.png",
+			"type": "image",
+			"name": "dougu_f_053_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_06.png",
+			"type": "image",
+			"name": "dougu_f_063_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_07.png",
+			"type": "image",
+			"name": "dougu_f_073_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_08.png",
+			"type": "image",
+			"name": "dougu_f_083_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_09.png",
+			"type": "image",
+			"name": "dougu_f_093_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_f_10.png",
+			"type": "image",
+			"name": "dougu_f_103_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_01.png",
+			"type": "image",
+			"name": "dougu_k_013_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_02.png",
+			"type": "image",
+			"name": "dougu_k_023_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_03.png",
+			"type": "image",
+			"name": "dougu_k_033_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_04.png",
+			"type": "image",
+			"name": "dougu_k_043_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_05.png",
+			"type": "image",
+			"name": "dougu_k_053_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_06.png",
+			"type": "image",
+			"name": "dougu_k_063_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_07.png",
+			"type": "image",
+			"name": "dougu_k_073_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_08.png",
+			"type": "image",
+			"name": "dougu_k_083_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_k_09.png",
+			"type": "image",
+			"name": "dougu_k_093_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_01.png",
+			"type": "image",
+			"name": "dougu_n_013_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_02.png",
+			"type": "image",
+			"name": "dougu_n_023_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_03.png",
+			"type": "image",
+			"name": "dougu_n_033_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_04.png",
+			"type": "image",
+			"name": "dougu_n_043_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_05.png",
+			"type": "image",
+			"name": "dougu_n_053_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_06.png",
+			"type": "image",
+			"name": "dougu_n_063_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_07.png",
+			"type": "image",
+			"name": "dougu_n_073_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_08.png",
+			"type": "image",
+			"name": "dougu_n_083_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_09.png",
+			"type": "image",
+			"name": "dougu_n_093_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_n_10.png",
+			"type": "image",
+			"name": "dougu_n_103_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_owan_01.png",
+			"type": "image",
+			"name": "dougu_owan_013_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_owan_02.png",
+			"type": "image",
+			"name": "dougu_owan_023_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_01.png",
+			"type": "image",
+			"name": "dougu_t_013_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_02.png",
+			"type": "image",
+			"name": "dougu_t_023_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_03.png",
+			"type": "image",
+			"name": "dougu_t_033_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_04.png",
+			"type": "image",
+			"name": "dougu_t_043_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_05.png",
+			"type": "image",
+			"name": "dougu_t_053_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_06.png",
+			"type": "image",
+			"name": "dougu_t_063_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_07.png",
+			"type": "image",
+			"name": "dougu_t_073_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_08.png",
+			"type": "image",
+			"name": "dougu_t_083_png"
+		},
+		{
+			"url": "assets/Sprite/dougu_t_09.png",
+			"type": "image",
+			"name": "dougu_t_093_png"
+		},
+		{
+			"url": "assets/Sprite/doui_no.png",
+			"type": "image",
+			"name": "doui_no3_png"
+		},
+		{
+			"url": "assets/Sprite/doui_yes.png",
+			"type": "image",
+			"name": "doui_yes3_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_f_01.png",
+			"type": "image",
+			"name": "doutyuu_f_013_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_f_02.png",
+			"type": "image",
+			"name": "doutyuu_f_023_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_f_03.png",
+			"type": "image",
+			"name": "doutyuu_f_033_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_f_04.png",
+			"type": "image",
+			"name": "doutyuu_f_043_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_f_05.png",
+			"type": "image",
+			"name": "doutyuu_f_053_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_01l.png",
+			"type": "image",
+			"name": "doutyuu_k_01l3_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_01r.png",
+			"type": "image",
+			"name": "doutyuu_k_01r3_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_02l.png",
+			"type": "image",
+			"name": "doutyuu_k_02l3_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_02r.png",
+			"type": "image",
+			"name": "doutyuu_k_02r3_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_03.png",
+			"type": "image",
+			"name": "doutyuu_k_033_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_04l.png",
+			"type": "image",
+			"name": "doutyuu_k_04l3_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_04r.png",
+			"type": "image",
+			"name": "doutyuu_k_04r3_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_05l.png",
+			"type": "image",
+			"name": "doutyuu_k_05l3_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_k_05r.png",
+			"type": "image",
+			"name": "doutyuu_k_05r3_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_n_01.png",
+			"type": "image",
+			"name": "doutyuu_n_013_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_n_02.png",
+			"type": "image",
+			"name": "doutyuu_n_023_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_n_03.png",
+			"type": "image",
+			"name": "doutyuu_n_033_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_n_04.png",
+			"type": "image",
+			"name": "doutyuu_n_043_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_n_05.png",
+			"type": "image",
+			"name": "doutyuu_n_053_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_t_01.png",
+			"type": "image",
+			"name": "doutyuu_t_013_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_t_02.png",
+			"type": "image",
+			"name": "doutyuu_t_023_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_t_03.png",
+			"type": "image",
+			"name": "doutyuu_t_033_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_t_04.png",
+			"type": "image",
+			"name": "doutyuu_t_043_png"
+		},
+		{
+			"url": "assets/Sprite/doutyuu_t_05.png",
+			"type": "image",
+			"name": "doutyuu_t_053_png"
+		},
+		{
+			"url": "assets/Sprite/DropdownArrow.png",
+			"type": "image",
+			"name": "DropdownArrow3_png"
+		},
+		{
+			"url": "assets/Sprite/frame_01.png",
+			"type": "image",
+			"name": "frame_013_png"
+		},
+		{
+			"url": "assets/Sprite/frame_02.png",
+			"type": "image",
+			"name": "frame_023_png"
+		},
+		{
+			"url": "assets/Sprite/frame_03.png",
+			"type": "image",
+			"name": "frame_033_png"
+		},
+		{
+			"url": "assets/Sprite/frame_empty.png",
+			"type": "image",
+			"name": "frame_empty3_png"
+		},
+		{
+			"url": "assets/Sprite/frame_kaban.png",
+			"type": "image",
+			"name": "frame_kaban3_png"
+		},
+		{
+			"url": "assets/Sprite/frame_name.png",
+			"type": "image",
+			"name": "frame_name3_png"
+		},
+		{
+			"url": "assets/Sprite/frame_small.png",
+			"type": "image",
+			"name": "frame_small3_png"
+		},
+		{
+			"url": "assets/Sprite/frame_tsukue.png",
+			"type": "image",
+			"name": "frame_tsukue3_png"
+		},
+		{
+			"url": "assets/Sprite/frog_0.png",
+			"type": "image",
+			"name": "frog_02_png"
+		},
+		{
+			"url": "assets/Sprite/frog_1.png",
+			"type": "image",
+			"name": "frog_12_png"
+		},
+		{
+			"url": "assets/Sprite/frog_2.png",
+			"type": "image",
+			"name": "frog_22_png"
+		},
+		{
+			"url": "assets/Sprite/frog_3.png",
+			"type": "image",
+			"name": "frog_32_png"
+		},
+		{
+			"url": "assets/Sprite/frog_4.png",
+			"type": "image",
+			"name": "frog_42_png"
+		},
+		{
+			"url": "assets/Sprite/gomibako.png",
+			"type": "image",
+			"name": "gomibako3_png"
+		},
+		{
+			"url": "assets/Sprite/goods_0.png",
+			"type": "image",
+			"name": "goods_02_png"
+		},
+		{
+			"url": "assets/Sprite/goods_1.png",
+			"type": "image",
+			"name": "goods_19_png"
+		},
+		{
+			"url": "assets/Sprite/goods_10.png",
+			"type": "image",
+			"name": "goods_102_png"
+		},
+		{
+			"url": "assets/Sprite/goods_11.png",
+			"type": "image",
+			"name": "goods_112_png"
+		},
+		{
+			"url": "assets/Sprite/goods_12.png",
+			"type": "image",
+			"name": "goods_122_png"
+		},
+		{
+			"url": "assets/Sprite/goods_13.png",
+			"type": "image",
+			"name": "goods_132_png"
+		},
+		{
+			"url": "assets/Sprite/goods_14.png",
+			"type": "image",
+			"name": "goods_142_png"
+		},
+		{
+			"url": "assets/Sprite/goods_15.png",
+			"type": "image",
+			"name": "goods_152_png"
+		},
+		{
+			"url": "assets/Sprite/goods_16.png",
+			"type": "image",
+			"name": "goods_162_png"
+		},
+		{
+			"url": "assets/Sprite/goods_17.png",
+			"type": "image",
+			"name": "goods_172_png"
+		},
+		{
+			"url": "assets/Sprite/goods_18.png",
+			"type": "image",
+			"name": "goods_182_png"
+		},
+		{
+			"url": "assets/Sprite/goods_2.png",
+			"type": "image",
+			"name": "goods_22_png"
+		},
+		{
+			"url": "assets/Sprite/goods_3.png",
+			"type": "image",
+			"name": "goods_32_png"
+		},
+		{
+			"url": "assets/Sprite/goods_4.png",
+			"type": "image",
+			"name": "goods_42_png"
+		},
+		{
+			"url": "assets/Sprite/goods_5.png",
+			"type": "image",
+			"name": "goods_52_png"
+		},
+		{
+			"url": "assets/Sprite/goods_6.png",
+			"type": "image",
+			"name": "goods_62_png"
+		},
+		{
+			"url": "assets/Sprite/goods_7.png",
+			"type": "image",
+			"name": "goods_72_png"
+		},
+		{
+			"url": "assets/Sprite/goods_8.png",
+			"type": "image",
+			"name": "goods_82_png"
+		},
+		{
+			"url": "assets/Sprite/goods_9.png",
+			"type": "image",
+			"name": "goods_92_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_0.png",
+			"type": "image",
+			"name": "goods_hukubiki_02_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_1.png",
+			"type": "image",
+			"name": "goods_hukubiki_110_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_10.png",
+			"type": "image",
+			"name": "goods_hukubiki_102_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_11.png",
+			"type": "image",
+			"name": "goods_hukubiki_112_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_12.png",
+			"type": "image",
+			"name": "goods_hukubiki_122_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_13.png",
+			"type": "image",
+			"name": "goods_hukubiki_132_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_14.png",
+			"type": "image",
+			"name": "goods_hukubiki_142_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_15.png",
+			"type": "image",
+			"name": "goods_hukubiki_152_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_16.png",
+			"type": "image",
+			"name": "goods_hukubiki_162_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_17.png",
+			"type": "image",
+			"name": "goods_hukubiki_172_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_18.png",
+			"type": "image",
+			"name": "goods_hukubiki_182_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_19.png",
+			"type": "image",
+			"name": "goods_hukubiki_192_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_2.png",
+			"type": "image",
+			"name": "goods_hukubiki_22_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_3.png",
+			"type": "image",
+			"name": "goods_hukubiki_32_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_4.png",
+			"type": "image",
+			"name": "goods_hukubiki_42_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_5.png",
+			"type": "image",
+			"name": "goods_hukubiki_52_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_6.png",
+			"type": "image",
+			"name": "goods_hukubiki_62_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_7.png",
+			"type": "image",
+			"name": "goods_hukubiki_72_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_8.png",
+			"type": "image",
+			"name": "goods_hukubiki_82_png"
+		},
+		{
+			"url": "assets/Sprite/goods_hukubiki_9.png",
+			"type": "image",
+			"name": "goods_hukubiki_92_png"
+		},
+		{
+			"url": "assets/Sprite/haikei_01.png",
+			"type": "image",
+			"name": "haikei_013_png"
+		},
+		{
+			"url": "assets/Sprite/haikei_niwa.png",
+			"type": "image",
+			"name": "haikei_niwa3_png"
+		},
+		{
+			"url": "assets/Sprite/haikei_niwa_akari.png",
+			"type": "image",
+			"name": "haikei_niwa_akari3_png"
+		},
+		{
+			"url": "assets/Sprite/hayasi_01.png",
+			"type": "image",
+			"name": "hayasi_013_png"
+		},
+		{
+			"url": "assets/Sprite/help.png",
+			"type": "image",
+			"name": "help3_png"
+		},
+		{
+			"url": "assets/Sprite/HelpPic_0_1.png",
+			"type": "image",
+			"name": "HelpPic_0_13_png"
+		},
+		{
+			"url": "assets/Sprite/HelpPic_0_2.png",
+			"type": "image",
+			"name": "HelpPic_0_23_png"
+		},
+		{
+			"url": "assets/Sprite/helpPic_1_1.png",
+			"type": "image",
+			"name": "helpPic_1_13_png"
+		},
+		{
+			"url": "assets/Sprite/HelpPic_2_1.png",
+			"type": "image",
+			"name": "HelpPic_2_13_png"
+		},
+		{
+			"url": "assets/Sprite/helpPic_2_2.png",
+			"type": "image",
+			"name": "helpPic_2_23_png"
+		},
+		{
+			"url": "assets/Sprite/helpPic_3_1.png",
+			"type": "image",
+			"name": "helpPic_3_13_png"
+		},
+		{
+			"url": "assets/Sprite/helpPic_3_2.png",
+			"type": "image",
+			"name": "helpPic_3_23_png"
+		},
+		{
+			"url": "assets/Sprite/HelpPic_3_3.png",
+			"type": "image",
+			"name": "HelpPic_3_33_png"
+		},
+		{
+			"url": "assets/Sprite/helpPic_4_1.png",
+			"type": "image",
+			"name": "helpPic_4_13_png"
+		},
+		{
+			"url": "assets/Sprite/helpPic_5_1.png",
+			"type": "image",
+			"name": "helpPic_5_13_png"
+		},
+		{
+			"url": "assets/Sprite/helpPic_5_2.png",
+			"type": "image",
+			"name": "helpPic_5_23_png"
+		},
+		{
+			"url": "assets/Sprite/HelpPic_5_3.png",
+			"type": "image",
+			"name": "HelpPic_5_33_png"
+		},
+		{
+			"url": "assets/Sprite/hikki_ie.png",
+			"type": "image",
+			"name": "hikki_ie3_png"
+		},
+		{
+			"url": "assets/Sprite/hi_rousoku.png",
+			"type": "image",
+			"name": "hi_rousoku3_png"
+		},
+		{
+			"url": "assets/Sprite/hi_syokudai.png",
+			"type": "image",
+			"name": "hi_syokudai3_png"
+		},
+		{
+			"url": "assets/Sprite/hozon_yes.png",
+			"type": "image",
+			"name": "hozon_yes3_png"
+		},
+		{
+			"url": "assets/Sprite/hplogo.png",
+			"type": "image",
+			"name": "hplogo3_png"
+		},
+		{
+			"url": "assets/Sprite/icon_camera_84_88.png",
+			"type": "image",
+			"name": "icon_camera_84_883_png"
+		},
+		{
+			"url": "assets/Sprite/icon_help_84_88.png",
+			"type": "image",
+			"name": "icon_help_84_883_png"
+		},
+		{
+			"url": "assets/Sprite/icon_house_84_88.png",
+			"type": "image",
+			"name": "icon_house_84_883_png"
+		},
+		{
+			"url": "assets/Sprite/icon_item_84_88.png",
+			"type": "image",
+			"name": "icon_item_84_883_png"
+		},
+		{
+			"url": "assets/Sprite/icon_menu_92_96.png",
+			"type": "image",
+			"name": "icon_menu_92_963_png"
+		},
+		{
+			"url": "assets/Sprite/icon_name.png",
+			"type": "image",
+			"name": "icon_name3_png"
+		},
+		{
+			"url": "assets/Sprite/icon_out_84_88.png",
+			"type": "image",
+			"name": "icon_out_84_883_png"
+		},
+		{
+			"url": "assets/Sprite/icon_shop_84_88.png",
+			"type": "image",
+			"name": "icon_shop_84_883_png"
+		},
+		{
+			"url": "assets/Sprite/icon_syougou.png",
+			"type": "image",
+			"name": "icon_syougou3_png"
+		},
+		{
+			"url": "assets/Sprite/icon_urabeya_84_88.png",
+			"type": "image",
+			"name": "icon_urabeya_84_883_png"
+		},
+		{
+			"url": "assets/Sprite/inemuri_ie.png",
+			"type": "image",
+			"name": "inemuri_ie3_png"
+		},
+		{
+			"url": "assets/Sprite/ippin.png",
+			"type": "image",
+			"name": "ippin3_png"
+		},
+		{
+			"url": "assets/Sprite/isigame_niwa.png",
+			"type": "image",
+			"name": "isigame_niwa3_png"
+		},
+		{
+			"url": "assets/Sprite/item_back.png",
+			"type": "image",
+			"name": "item_back3_png"
+		},
+		{
+			"url": "assets/Sprite/kaban.png",
+			"type": "image",
+			"name": "kaban3_png"
+		},
+		{
+			"url": "assets/Sprite/kaban_frame_01.png",
+			"type": "image",
+			"name": "kaban_frame_013_png"
+		},
+		{
+			"url": "assets/Sprite/kaban_frame_02.png",
+			"type": "image",
+			"name": "kaban_frame_023_png"
+		},
+		{
+			"url": "assets/Sprite/kaban_frame_03.png",
+			"type": "image",
+			"name": "kaban_frame_033_png"
+		},
+		{
+			"url": "assets/Sprite/kaeru_niwa.png",
+			"type": "image",
+			"name": "kaeru_niwa3_png"
+		},
+		{
+			"url": "assets/Sprite/kanryou.png",
+			"type": "image",
+			"name": "kanryou3_png"
+		},
+		{
+			"url": "assets/Sprite/katadukeru.png",
+			"type": "image",
+			"name": "katadukeru3_png"
+		},
+		{
+			"url": "assets/Sprite/katatsumuri_niwa.png",
+			"type": "image",
+			"name": "katatsumuri_niwa3_png"
+		},
+		{
+			"url": "assets/Sprite/keihin.png",
+			"type": "image",
+			"name": "keihin3_png"
+		},
+		{
+			"url": "assets/Sprite/ki_01.png",
+			"type": "image",
+			"name": "ki_013_png"
+		},
+		{
+			"url": "assets/Sprite/ki_02.png",
+			"type": "image",
+			"name": "ki_023_png"
+		},
+		{
+			"url": "assets/Sprite/ki_03.png",
+			"type": "image",
+			"name": "ki_033_png"
+		},
+		{
+			"url": "assets/Sprite/ki_04.png",
+			"type": "image",
+			"name": "ki_043_png"
+		},
+		{
+			"url": "assets/Sprite/ki_05.png",
+			"type": "image",
+			"name": "ki_053_png"
+		},
+		{
+			"url": "assets/Sprite/koke_01.png",
+			"type": "image",
+			"name": "koke_013_png"
+		},
+		{
+			"url": "assets/Sprite/koke_02.png",
+			"type": "image",
+			"name": "koke_023_png"
+		},
+		{
+			"url": "assets/Sprite/koke_03.png",
+			"type": "image",
+			"name": "koke_033_png"
+		},
+		{
+			"url": "assets/Sprite/koke_04.png",
+			"type": "image",
+			"name": "koke_043_png"
+		},
+		{
+			"url": "assets/Sprite/koke_05.png",
+			"type": "image",
+			"name": "koke_053_png"
+		},
+		{
+			"url": "assets/Sprite/koke_06.png",
+			"type": "image",
+			"name": "koke_063_png"
+		},
+		{
+			"url": "assets/Sprite/koke_07.png",
+			"type": "image",
+			"name": "koke_073_png"
+		},
+		{
+			"url": "assets/Sprite/koke_08.png",
+			"type": "image",
+			"name": "koke_083_png"
+		},
+		{
+			"url": "assets/Sprite/koke_09.png",
+			"type": "image",
+			"name": "koke_093_png"
+		},
+		{
+			"url": "assets/Sprite/koke_10.png",
+			"type": "image",
+			"name": "koke_103_png"
+		},
+		{
+			"url": "assets/Sprite/konkuri_01.png",
+			"type": "image",
+			"name": "konkuri_013_png"
+		},
+		{
+			"url": "assets/Sprite/kumo_01.png",
+			"type": "image",
+			"name": "kumo_013_png"
+		},
+		{
+			"url": "assets/Sprite/kumo_02.png",
+			"type": "image",
+			"name": "kumo_023_png"
+		},
+		{
+			"url": "assets/Sprite/kumo_03.png",
+			"type": "image",
+			"name": "kumo_033_png"
+		},
+		{
+			"url": "assets/Sprite/kumo_04.png",
+			"type": "image",
+			"name": "kumo_043_png"
+		},
+		{
+			"url": "assets/Sprite/kumo_05.png",
+			"type": "image",
+			"name": "kumo_053_png"
+		},
+		{
+			"url": "assets/Sprite/kumo_06.png",
+			"type": "image",
+			"name": "kumo_063_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_01.png",
+			"type": "image",
+			"name": "kusa_013_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_02.png",
+			"type": "image",
+			"name": "kusa_023_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_03.png",
+			"type": "image",
+			"name": "kusa_033_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_04.png",
+			"type": "image",
+			"name": "kusa_043_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_05.png",
+			"type": "image",
+			"name": "kusa_053_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_06.png",
+			"type": "image",
+			"name": "kusa_063_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_07.png",
+			"type": "image",
+			"name": "kusa_073_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_08.png",
+			"type": "image",
+			"name": "kusa_083_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_09.png",
+			"type": "image",
+			"name": "kusa_093_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_10.png",
+			"type": "image",
+			"name": "kusa_103_png"
+		},
+		{
+			"url": "assets/Sprite/kusa_11.png",
+			"type": "image",
+			"name": "kusa_113_png"
+		},
+		{
+			"url": "assets/Sprite/kutu_01.png",
+			"type": "image",
+			"name": "kutu_013_png"
+		},
+		{
+			"url": "assets/Sprite/label_01.png",
+			"type": "image",
+			"name": "label_013_png"
+		},
+		{
+			"url": "assets/Sprite/label_02.png",
+			"type": "image",
+			"name": "label_023_png"
+		},
+		{
+			"url": "assets/Sprite/label_03.png",
+			"type": "image",
+			"name": "label_033_png"
+		},
+		{
+			"url": "assets/Sprite/label_04.png",
+			"type": "image",
+			"name": "label_043_png"
+		},
+		{
+			"url": "assets/Sprite/line_01.png",
+			"type": "image",
+			"name": "line_013_png"
+		},
+		{
+			"url": "assets/Sprite/loading.png",
+			"type": "image",
+			"name": "loading3_png"
+		},
+		{
+			"url": "assets/Sprite/loading_dorai.png",
+			"type": "image",
+			"name": "loading_dorai3_png"
+		},
+		{
+			"url": "assets/Sprite/loading_off.png",
+			"type": "image",
+			"name": "loading_off3_png"
+		},
+		{
+			"url": "assets/Sprite/loading_on.png",
+			"type": "image",
+			"name": "loading_on3_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_ball_01.png",
+			"type": "image",
+			"name": "lottery_ball_013_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_ball_02.png",
+			"type": "image",
+			"name": "lottery_ball_023_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_ball_03.png",
+			"type": "image",
+			"name": "lottery_ball_033_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_ball_04.png",
+			"type": "image",
+			"name": "lottery_ball_043_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_ball_05.png",
+			"type": "image",
+			"name": "lottery_ball_053_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_dodai.png",
+			"type": "image",
+			"name": "lottery_dodai3_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_frame_01.png",
+			"type": "image",
+			"name": "lottery_frame_013_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_frame_02.png",
+			"type": "image",
+			"name": "lottery_frame_023_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_frame_03.png",
+			"type": "image",
+			"name": "lottery_frame_033_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_frame_04.png",
+			"type": "image",
+			"name": "lottery_frame_043_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_frame_05.png",
+			"type": "image",
+			"name": "lottery_frame_053_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_hukubiki.png",
+			"type": "image",
+			"name": "lottery_hukubiki3_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_keihin.png",
+			"type": "image",
+			"name": "lottery_keihin3_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_mawasu.png",
+			"type": "image",
+			"name": "lottery_mawasu3_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_syozi.png",
+			"type": "image",
+			"name": "lottery_syozi3_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_tenpo_sita.png",
+			"type": "image",
+			"name": "lottery_tenpo_sita3_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_tenpo_ue.png",
+			"type": "image",
+			"name": "lottery_tenpo_ue3_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_zoom_frame.png",
+			"type": "image",
+			"name": "lottery_zoom_frame3_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_zoom_tray_01.png",
+			"type": "image",
+			"name": "lottery_zoom_tray_013_png"
+		},
+		{
+			"url": "assets/Sprite/lottery_zoom_tray_02.png",
+			"type": "image",
+			"name": "lottery_zoom_tray_023_png"
+		},
+		{
+			"url": "assets/Sprite/mail_hukubiki.png",
+			"type": "image",
+			"name": "mail_hukubiki3_png"
+		},
+		{
+			"url": "assets/Sprite/mail_isigame.png",
+			"type": "image",
+			"name": "mail_isigame3_png"
+		},
+		{
+			"url": "assets/Sprite/mail_katatsumuri.png",
+			"type": "image",
+			"name": "mail_katatsumuri3_png"
+		},
+		{
+			"url": "assets/Sprite/mail_mitsubati.png",
+			"type": "image",
+			"name": "mail_mitsubati3_png"
+		},
+		{
+			"url": "assets/Sprite/mail_mituba.png",
+			"type": "image",
+			"name": "mail_mituba3_png"
+		},
+		{
+			"url": "assets/Sprite/mail_olluketori.png",
+			"type": "image",
+			"name": "mail_olluketori3_png"
+		},
+		{
+			"url": "assets/Sprite/mail_tirashi.png",
+			"type": "image",
+			"name": "mail_tirashi3_png"
+		},
+		{
+			"url": "assets/Sprite/mail_uketori.png",
+			"type": "image",
+			"name": "mail_uketori3_png"
+		},
+		{
+			"url": "assets/Sprite/mail_yotuba.png",
+			"type": "image",
+			"name": "mail_yotuba3_png"
+		},
+		{
+			"url": "assets/Sprite/MainOut_mail_tuuti.png",
+			"type": "image",
+			"name": "MainOut_mail_tuuti3_png"
+		},
+		{
+			"url": "assets/Sprite/meibutu.png",
+			"type": "image",
+			"name": "meibutu3_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_01.png",
+			"type": "image",
+			"name": "meisyo_013_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_02.png",
+			"type": "image",
+			"name": "meisyo_023_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_03.png",
+			"type": "image",
+			"name": "meisyo_033_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_04.png",
+			"type": "image",
+			"name": "meisyo_043_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_05.png",
+			"type": "image",
+			"name": "meisyo_053_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_06.png",
+			"type": "image",
+			"name": "meisyo_063_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_07.png",
+			"type": "image",
+			"name": "meisyo_073_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_08.png",
+			"type": "image",
+			"name": "meisyo_083_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_09.png",
+			"type": "image",
+			"name": "meisyo_093_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_10.png",
+			"type": "image",
+			"name": "meisyo_103_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_01.png",
+			"type": "image",
+			"name": "meisyo_f_013_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_02.png",
+			"type": "image",
+			"name": "meisyo_f_023_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_03.png",
+			"type": "image",
+			"name": "meisyo_f_033_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_04.png",
+			"type": "image",
+			"name": "meisyo_f_043_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_05.png",
+			"type": "image",
+			"name": "meisyo_f_053_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_06.png",
+			"type": "image",
+			"name": "meisyo_f_063_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_07.png",
+			"type": "image",
+			"name": "meisyo_f_073_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_08.png",
+			"type": "image",
+			"name": "meisyo_f_083_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_09.png",
+			"type": "image",
+			"name": "meisyo_f_093_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_10.png",
+			"type": "image",
+			"name": "meisyo_f_103_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_11.png",
+			"type": "image",
+			"name": "meisyo_f_113_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_12.png",
+			"type": "image",
+			"name": "meisyo_f_123_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_13.png",
+			"type": "image",
+			"name": "meisyo_f_133_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_f_14.png",
+			"type": "image",
+			"name": "meisyo_f_143_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_01.png",
+			"type": "image",
+			"name": "meisyo_k_013_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_02.png",
+			"type": "image",
+			"name": "meisyo_k_023_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_03.png",
+			"type": "image",
+			"name": "meisyo_k_033_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_04.png",
+			"type": "image",
+			"name": "meisyo_k_043_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_05.png",
+			"type": "image",
+			"name": "meisyo_k_053_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_06.png",
+			"type": "image",
+			"name": "meisyo_k_063_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_07.png",
+			"type": "image",
+			"name": "meisyo_k_073_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_08.png",
+			"type": "image",
+			"name": "meisyo_k_083_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_09.png",
+			"type": "image",
+			"name": "meisyo_k_093_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_k_10.png",
+			"type": "image",
+			"name": "meisyo_k_103_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_01.png",
+			"type": "image",
+			"name": "meisyo_n_013_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_02.png",
+			"type": "image",
+			"name": "meisyo_n_023_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_03.png",
+			"type": "image",
+			"name": "meisyo_n_033_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_04.png",
+			"type": "image",
+			"name": "meisyo_n_043_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_05.png",
+			"type": "image",
+			"name": "meisyo_n_053_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_06.png",
+			"type": "image",
+			"name": "meisyo_n_063_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_07.png",
+			"type": "image",
+			"name": "meisyo_n_073_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_08.png",
+			"type": "image",
+			"name": "meisyo_n_083_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_09.png",
+			"type": "image",
+			"name": "meisyo_n_093_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_n_10.png",
+			"type": "image",
+			"name": "meisyo_n_103_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_01.png",
+			"type": "image",
+			"name": "meisyo_t_013_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_02.png",
+			"type": "image",
+			"name": "meisyo_t_023_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_03.png",
+			"type": "image",
+			"name": "meisyo_t_033_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_04.png",
+			"type": "image",
+			"name": "meisyo_t_043_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_05.png",
+			"type": "image",
+			"name": "meisyo_t_053_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_06.png",
+			"type": "image",
+			"name": "meisyo_t_063_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_07.png",
+			"type": "image",
+			"name": "meisyo_t_073_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_08.png",
+			"type": "image",
+			"name": "meisyo_t_083_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_09.png",
+			"type": "image",
+			"name": "meisyo_t_093_png"
+		},
+		{
+			"url": "assets/Sprite/meisyo_t_10.png",
+			"type": "image",
+			"name": "meisyo_t_103_png"
+		},
+		{
+			"url": "assets/Sprite/mitsubati_niwa.png",
+			"type": "image",
+			"name": "mitsubati_niwa3_png"
+		},
+		{
+			"url": "assets/Sprite/mori_01.png",
+			"type": "image",
+			"name": "mori_013_png"
+		},
+		{
+			"url": "assets/Sprite/motimono.png",
+			"type": "image",
+			"name": "motimono3_png"
+		},
+		{
+			"url": "assets/Sprite/motimono_tuuti.png",
+			"type": "image",
+			"name": "motimono_tuuti3_png"
+		},
+		{
+			"url": "assets/Sprite/nekko_01.png",
+			"type": "image",
+			"name": "nekko_013_png"
+		},
+		{
+			"url": "assets/Sprite/no.png",
+			"type": "image",
+			"name": "no3_png"
+		},
+		{
+			"url": "assets/Sprite/off_off.png",
+			"type": "image",
+			"name": "off_off3_png"
+		},
+		{
+			"url": "assets/Sprite/off_on.png",
+			"type": "image",
+			"name": "off_on3_png"
+		},
+		{
+			"url": "assets/Sprite/ok.png",
+			"type": "image",
+			"name": "ok3_png"
+		},
+		{
+			"url": "assets/Sprite/omiyage.png",
+			"type": "image",
+			"name": "omiyage3_png"
+		},
+		{
+			"url": "assets/Sprite/on_off.png",
+			"type": "image",
+			"name": "on_off3_png"
+		},
+		{
+			"url": "assets/Sprite/on_on.png",
+			"type": "image",
+			"name": "on_on3_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_01.png",
+			"type": "image",
+			"name": "otiba_013_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_02.png",
+			"type": "image",
+			"name": "otiba_023_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_03.png",
+			"type": "image",
+			"name": "otiba_033_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_04.png",
+			"type": "image",
+			"name": "otiba_043_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_05.png",
+			"type": "image",
+			"name": "otiba_053_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_06.png",
+			"type": "image",
+			"name": "otiba_063_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_07.png",
+			"type": "image",
+			"name": "otiba_073_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_08.png",
+			"type": "image",
+			"name": "otiba_083_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_09.png",
+			"type": "image",
+			"name": "otiba_093_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_10.png",
+			"type": "image",
+			"name": "otiba_103_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_11.png",
+			"type": "image",
+			"name": "otiba_113_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_12.png",
+			"type": "image",
+			"name": "otiba_123_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_13.png",
+			"type": "image",
+			"name": "otiba_133_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_14.png",
+			"type": "image",
+			"name": "otiba_143_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_15.png",
+			"type": "image",
+			"name": "otiba_153_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_16.png",
+			"type": "image",
+			"name": "otiba_163_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_17.png",
+			"type": "image",
+			"name": "otiba_173_png"
+		},
+		{
+			"url": "assets/Sprite/otiba_18.png",
+			"type": "image",
+			"name": "otiba_183_png"
+		},
+		{
+			"url": "assets/Sprite/page_01.png",
+			"type": "image",
+			"name": "page_013_png"
+		},
+		{
+			"url": "assets/Sprite/page_02.png",
+			"type": "image",
+			"name": "page_023_png"
+		},
+		{
+			"url": "assets/Sprite/photo_frame.png",
+			"type": "image",
+			"name": "photo_frame3_png"
+		},
+		{
+			"url": "assets/Sprite/question.png",
+			"type": "image",
+			"name": "question3_png"
+		},
+		{
+			"url": "assets/Sprite/raffle_84_88.png",
+			"type": "image",
+			"name": "raffle_84_883_png"
+		},
+		{
+			"url": "assets/Sprite/sagyou_ie.png",
+			"type": "image",
+			"name": "sagyou_ie3_png"
+		},
+		{
+			"url": "assets/Sprite/saku_01.png",
+			"type": "image",
+			"name": "saku_013_png"
+		},
+		{
+			"url": "assets/Sprite/saku_02.png",
+			"type": "image",
+			"name": "saku_023_png"
+		},
+		{
+			"url": "assets/Sprite/saku_03.png",
+			"type": "image",
+			"name": "saku_033_png"
+		},
+		{
+			"url": "assets/Sprite/scroll_l.png",
+			"type": "image",
+			"name": "scroll_l3_png"
+		},
+		{
+			"url": "assets/Sprite/scroll_r.png",
+			"type": "image",
+			"name": "scroll_r3_png"
+		},
+		{
+			"url": "assets/Sprite/se.png",
+			"type": "image",
+			"name": "se3_png"
+		},
+		{
+			"url": "assets/Sprite/sentaku.png",
+			"type": "image",
+			"name": "sentaku3_png"
+		},
+		{
+			"url": "assets/Sprite/settei.png",
+			"type": "image",
+			"name": "settei3_png"
+		},
+		{
+			"url": "assets/Sprite/se_off.png",
+			"type": "image",
+			"name": "se_off3_png"
+		},
+		{
+			"url": "assets/Sprite/se_on.png",
+			"type": "image",
+			"name": "se_on3_png"
+		},
+		{
+			"url": "assets/Sprite/share_android.png",
+			"type": "image",
+			"name": "share_android3_png"
+		},
+		{
+			"url": "assets/Sprite/share_ios.png",
+			"type": "image",
+			"name": "share_ios3_png"
+		},
+		{
+			"url": "assets/Sprite/shop_kago_b.png",
+			"type": "image",
+			"name": "shop_kago_b3_png"
+		},
+		{
+			"url": "assets/Sprite/shop_kago_g.png",
+			"type": "image",
+			"name": "shop_kago_g3_png"
+		},
+		{
+			"url": "assets/Sprite/shop_kago_p.png",
+			"type": "image",
+			"name": "shop_kago_p3_png"
+		},
+		{
+			"url": "assets/Sprite/shop_kago_y.png",
+			"type": "image",
+			"name": "shop_kago_y3_png"
+		},
+		{
+			"url": "assets/Sprite/shop_koumoku.png",
+			"type": "image",
+			"name": "shop_koumoku3_png"
+		},
+		{
+			"url": "assets/Sprite/shop_kounyuu.png",
+			"type": "image",
+			"name": "shop_kounyuu3_png"
+		},
+		{
+			"url": "assets/Sprite/shop_setumei.png",
+			"type": "image",
+			"name": "shop_setumei3_png"
+		},
+		{
+			"url": "assets/Sprite/shop_tana.png",
+			"type": "image",
+			"name": "shop_tana3_png"
+		},
+		{
+			"url": "assets/Sprite/shop_tenpo_sita.png",
+			"type": "image",
+			"name": "shop_tenpo_sita3_png"
+		},
+		{
+			"url": "assets/Sprite/shop_tenpo_ue.png",
+			"type": "image",
+			"name": "shop_tenpo_ue3_png"
+		},
+		{
+			"url": "assets/Sprite/shop_urikire.png",
+			"type": "image",
+			"name": "shop_urikire3_png"
+		},
+		{
+			"url": "assets/Sprite/sitaku_ie.png",
+			"type": "image",
+			"name": "sitaku_ie3_png"
+		},
+		{
+			"url": "assets/Sprite/slider_a.png",
+			"type": "image",
+			"name": "slider_a3_png"
+		},
+		{
+			"url": "assets/Sprite/slider_b.png",
+			"type": "image",
+			"name": "slider_b3_png"
+		},
+		{
+			"url": "assets/Sprite/sora_01.png",
+			"type": "image",
+			"name": "sora_013_png"
+		},
+		{
+			"url": "assets/Sprite/sora_02.png",
+			"type": "image",
+			"name": "sora_023_png"
+		},
+		{
+			"url": "assets/Sprite/sora_03.png",
+			"type": "image",
+			"name": "sora_033_png"
+		},
+		{
+			"url": "assets/Sprite/sora_04.png",
+			"type": "image",
+			"name": "sora_043_png"
+		},
+		{
+			"url": "assets/Sprite/sora_05.png",
+			"type": "image",
+			"name": "sora_053_png"
+		},
+		{
+			"url": "assets/Sprite/sora_06.png",
+			"type": "image",
+			"name": "sora_063_png"
+		},
+		{
+			"url": "assets/Sprite/sora_07.png",
+			"type": "image",
+			"name": "sora_073_png"
+		},
+		{
+			"url": "assets/Sprite/sora_08.png",
+			"type": "image",
+			"name": "sora_083_png"
+		},
+		{
+			"url": "assets/Sprite/sora_09.png",
+			"type": "image",
+			"name": "sora_093_png"
+		},
+		{
+			"url": "assets/Sprite/sora_10.png",
+			"type": "image",
+			"name": "sora_103_png"
+		},
+		{
+			"url": "assets/Sprite/sora_11.png",
+			"type": "image",
+			"name": "sora_113_png"
+		},
+		{
+			"url": "assets/Sprite/sora_12.png",
+			"type": "image",
+			"name": "sora_123_png"
+		},
+		{
+			"url": "assets/Sprite/sousin.png",
+			"type": "image",
+			"name": "sousin3_png"
+		},
+		{
+			"url": "assets/Sprite/Square.png",
+			"type": "image",
+			"name": "Square3_png"
+		},
+		{
+			"url": "assets/Sprite/start.png",
+			"type": "image",
+			"name": "start3_png"
+		},
+		{
+			"url": "assets/Sprite/sumi.png",
+			"type": "image",
+			"name": "sumi3_png"
+		},
+		{
+			"url": "assets/Sprite/syokuzi_ie.png",
+			"type": "image",
+			"name": "syokuzi_ie3_png"
+		},
+		{
+			"url": "assets/Sprite/syougou.png",
+			"type": "image",
+			"name": "syougou3_png"
+		},
+		{
+			"url": "assets/Sprite/sys_clover_window.png",
+			"type": "image",
+			"name": "sys_clover_window3_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_0.png",
+			"type": "image",
+			"name": "sys_num_20_29_02_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_1.png",
+			"type": "image",
+			"name": "sys_num_20_29_12_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_2.png",
+			"type": "image",
+			"name": "sys_num_20_29_22_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_3.png",
+			"type": "image",
+			"name": "sys_num_20_29_32_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_4.png",
+			"type": "image",
+			"name": "sys_num_20_29_42_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_5.png",
+			"type": "image",
+			"name": "sys_num_20_29_52_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_6.png",
+			"type": "image",
+			"name": "sys_num_20_29_62_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_7.png",
+			"type": "image",
+			"name": "sys_num_20_29_72_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_8.png",
+			"type": "image",
+			"name": "sys_num_20_29_82_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_20_29_9.png",
+			"type": "image",
+			"name": "sys_num_20_29_92_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_0.png",
+			"type": "image",
+			"name": "sys_num_24_36_02_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_1.png",
+			"type": "image",
+			"name": "sys_num_24_36_12_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_2.png",
+			"type": "image",
+			"name": "sys_num_24_36_22_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_3.png",
+			"type": "image",
+			"name": "sys_num_24_36_32_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_4.png",
+			"type": "image",
+			"name": "sys_num_24_36_42_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_5.png",
+			"type": "image",
+			"name": "sys_num_24_36_52_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_6.png",
+			"type": "image",
+			"name": "sys_num_24_36_62_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_7.png",
+			"type": "image",
+			"name": "sys_num_24_36_72_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_8.png",
+			"type": "image",
+			"name": "sys_num_24_36_82_png"
+		},
+		{
+			"url": "assets/Sprite/sys_num_24_36_9.png",
+			"type": "image",
+			"name": "sys_num_24_36_92_png"
+		},
+		{
+			"url": "assets/Sprite/tab_dougu_off.png",
+			"type": "image",
+			"name": "tab_dougu_off3_png"
+		},
+		{
+			"url": "assets/Sprite/tab_dougu_on.png",
+			"type": "image",
+			"name": "tab_dougu_on3_png"
+		},
+		{
+			"url": "assets/Sprite/tab_meibutsu_off.png",
+			"type": "image",
+			"name": "tab_meibutsu_off3_png"
+		},
+		{
+			"url": "assets/Sprite/tab_meibutsu_on.png",
+			"type": "image",
+			"name": "tab_meibutsu_on3_png"
+		},
+		{
+			"url": "assets/Sprite/tab_obentou_off.png",
+			"type": "image",
+			"name": "tab_obentou_off3_png"
+		},
+		{
+			"url": "assets/Sprite/tab_obentou_on.png",
+			"type": "image",
+			"name": "tab_obentou_on3_png"
+		},
+		{
+			"url": "assets/Sprite/tab_omamori_off.png",
+			"type": "image",
+			"name": "tab_omamori_off3_png"
+		},
+		{
+			"url": "assets/Sprite/tab_omamori_on.png",
+			"type": "image",
+			"name": "tab_omamori_on3_png"
+		},
+		{
+			"url": "assets/Sprite/title.png",
+			"type": "image",
+			"name": "title3_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_01.png",
+			"type": "image",
+			"name": "tokusyu_013_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_02.png",
+			"type": "image",
+			"name": "tokusyu_023_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_03.png",
+			"type": "image",
+			"name": "tokusyu_033_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_05.png",
+			"type": "image",
+			"name": "tokusyu_053_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_05_f.png",
+			"type": "image",
+			"name": "tokusyu_05_f3_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_05_k.png",
+			"type": "image",
+			"name": "tokusyu_05_k3_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_05_n.png",
+			"type": "image",
+			"name": "tokusyu_05_n3_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_05_t.png",
+			"type": "image",
+			"name": "tokusyu_05_t3_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_06.png",
+			"type": "image",
+			"name": "tokusyu_063_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_07.png",
+			"type": "image",
+			"name": "tokusyu_073_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_08.png",
+			"type": "image",
+			"name": "tokusyu_083_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_09.png",
+			"type": "image",
+			"name": "tokusyu_093_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_10.png",
+			"type": "image",
+			"name": "tokusyu_103_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_11.png",
+			"type": "image",
+			"name": "tokusyu_113_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_12.png",
+			"type": "image",
+			"name": "tokusyu_123_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_13.png",
+			"type": "image",
+			"name": "tokusyu_133_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_14.png",
+			"type": "image",
+			"name": "tokusyu_143_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_15.png",
+			"type": "image",
+			"name": "tokusyu_153_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_16.png",
+			"type": "image",
+			"name": "tokusyu_163_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_17.png",
+			"type": "image",
+			"name": "tokusyu_173_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_17_f.png",
+			"type": "image",
+			"name": "tokusyu_17_f3_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_17_k.png",
+			"type": "image",
+			"name": "tokusyu_17_k3_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_17_n.png",
+			"type": "image",
+			"name": "tokusyu_17_n3_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_17_t.png",
+			"type": "image",
+			"name": "tokusyu_17_t3_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_18.png",
+			"type": "image",
+			"name": "tokusyu_183_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_19.png",
+			"type": "image",
+			"name": "tokusyu_193_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_19_k.png",
+			"type": "image",
+			"name": "tokusyu_19_k3_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_19_n.png",
+			"type": "image",
+			"name": "tokusyu_19_n3_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_19_t.png",
+			"type": "image",
+			"name": "tokusyu_19_t3_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_20.png",
+			"type": "image",
+			"name": "tokusyu_203_png"
+		},
+		{
+			"url": "assets/Sprite/tokusyu_21.png",
+			"type": "image",
+			"name": "tokusyu_213_png"
+		},
+		{
+			"url": "assets/Sprite/torihikiho_button.png",
+			"type": "image",
+			"name": "torihikiho_button3_png"
+		},
+		{
+			"url": "assets/Sprite/tsukue.png",
+			"type": "image",
+			"name": "tsukue3_png"
+		},
+		{
+			"url": "assets/Sprite/tsukue_frame_01.png",
+			"type": "image",
+			"name": "tsukue_frame_013_png"
+		},
+		{
+			"url": "assets/Sprite/tsukue_frame_02.png",
+			"type": "image",
+			"name": "tsukue_frame_023_png"
+		},
+		{
+			"url": "assets/Sprite/tsukue_frame_03.png",
+			"type": "image",
+			"name": "tsukue_frame_033_png"
+		},
+		{
+			"url": "assets/Sprite/tuuti.png",
+			"type": "image",
+			"name": "tuuti3_png"
+		},
+		{
+			"url": "assets/Sprite/UIMask.png",
+			"type": "image",
+			"name": "UIMask3_png"
+		},
+		{
+			"url": "assets/Sprite/UISprite.png",
+			"type": "image",
+			"name": "UISprite3_png"
+		},
+		{
+			"url": "assets/Sprite/umi_01.png",
+			"type": "image",
+			"name": "umi_013_png"
+		},
+		{
+			"url": "assets/Sprite/umi_02.png",
+			"type": "image",
+			"name": "umi_023_png"
+		},
+		{
+			"url": "assets/Sprite/umi_03.png",
+			"type": "image",
+			"name": "umi_033_png"
+		},
+		{
+			"url": "assets/Sprite/umi_04.png",
+			"type": "image",
+			"name": "umi_043_png"
+		},
+		{
+			"url": "assets/Sprite/umi_05.png",
+			"type": "image",
+			"name": "umi_053_png"
+		},
+		{
+			"url": "assets/Sprite/umi_06.png",
+			"type": "image",
+			"name": "umi_063_png"
+		},
+		{
+			"url": "assets/Sprite/UnitySplash-cube.png",
+			"type": "image",
+			"name": "UnitySplash-cube3_png"
+		},
+		{
+			"url": "assets/Sprite/urabeya.png",
+			"type": "image",
+			"name": "urabeya3_png"
+		},
+		{
+			"url": "assets/Sprite/volume_cursor.png",
+			"type": "image",
+			"name": "volume_cursor3_png"
+		},
+		{
+			"url": "assets/Sprite/volume_off.png",
+			"type": "image",
+			"name": "volume_off3_png"
+		},
+		{
+			"url": "assets/Sprite/volume_on.png",
+			"type": "image",
+			"name": "volume_on3_png"
+		},
+		{
+			"url": "assets/Sprite/yama_01.png",
+			"type": "image",
+			"name": "yama_013_png"
+		},
+		{
+			"url": "assets/Sprite/yama_02.png",
+			"type": "image",
+			"name": "yama_023_png"
+		},
+		{
+			"url": "assets/Sprite/yama_03.png",
+			"type": "image",
+			"name": "yama_033_png"
+		},
+		{
+			"url": "assets/Sprite/yes.png",
+			"type": "image",
+			"name": "yes3_png"
+		},
+		{
+			"url": "assets/Sprite/yubisasi_a.png",
+			"type": "image",
+			"name": "yubisasi_a3_png"
+		},
+		{
+			"url": "assets/Sprite/yubisasi_b.png",
+			"type": "image",
+			"name": "yubisasi_b3_png"
+		},
+		{
+			"url": "assets/Sprite/yubisasi_c.png",
+			"type": "image",
+			"name": "yubisasi_c3_png"
+		},
+		{
+			"url": "assets/Sprite/yubisasi_d.png",
+			"type": "image",
+			"name": "yubisasi_d3_png"
+		},
+		{
+			"url": "assets/Sprite/yuubin.png",
+			"type": "image",
+			"name": "yuubin3_png"
+		},
+		{
+			"url": "assets/Sprite/zimen_01.png",
+			"type": "image",
+			"name": "zimen_013_png"
+		},
+		{
+			"url": "assets/Sprite/zimen_02.png",
+			"type": "image",
+			"name": "zimen_023_png"
+		},
+		{
+			"url": "assets/Sprite/zukan_dodai.png",
+			"type": "image",
+			"name": "zukan_dodai3_png"
+		},
+		{
+			"url": "assets/Sprite/zukan_ippin_off.png",
+			"type": "image",
+			"name": "zukan_ippin_off3_png"
+		},
+		{
+			"url": "assets/Sprite/zukan_ippin_on.png",
+			"type": "image",
+			"name": "zukan_ippin_on3_png"
+		},
+		{
+			"url": "assets/Sprite/zukan_meibutsu_off.png",
+			"type": "image",
+			"name": "zukan_meibutsu_off3_png"
+		},
+		{
+			"url": "assets/Sprite/zukan_meibutsu_on.png",
+			"type": "image",
+			"name": "zukan_meibutsu_on3_png"
+		},
+		{
+			"url": "assets/Sprite/zukan_panel.png",
+			"type": "image",
+			"name": "zukan_panel3_png"
+		},
+		{
+			"url": "assets/Sprite/zukan_santi.png",
+			"type": "image",
+			"name": "zukan_santi3_png"
+		},
+		{
+			"url": "assets/Sprite/zukan_title.png",
+			"type": "image",
+			"name": "zukan_title3_png"
+		},
+		{
+			"url": "assets/Sprite/r1.png",
+			"type": "image",
+			"name": "r12_png"
+		},
+		{
+			"url": "assets/Sprite/r2.png",
+			"type": "image",
+			"name": "r22_png"
+		}
+	]
 }
