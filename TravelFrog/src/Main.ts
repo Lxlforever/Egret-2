@@ -33,6 +33,12 @@ private courtyard:Courtyard;
 private createGameScene():void {
     this.courtyard=new Courtyard();
     this.addChild(this.courtyard);
+    let icon = new egret.Bitmap();
+    icon.texture = RES.getRes("icon_house_84_88_png");
+    this.addChild(icon);
+    icon.x=Data.getscreenWidth()-icon.width-15;
+    icon.y=Data.getscreenHeight()-icon.height-10;
+
     //1111111
     }
 }

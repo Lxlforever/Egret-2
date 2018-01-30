@@ -36,6 +36,11 @@ var Main = (function (_super) {
     Main.prototype.createGameScene = function () {
         this.courtyard = new Courtyard();
         this.addChild(this.courtyard);
+        var icon = new egret.Bitmap();
+        icon.texture = RES.getRes("icon_house_84_88_png");
+        this.addChild(icon);
+        icon.x = Data.getscreenWidth() - icon.width - 15;
+        icon.y = Data.getscreenHeight() - icon.height - 10;
         //1111111
     };
     return Main;
