@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "bg_jpg,egret_icon_png,description_json,back_mainIn_png,haikei_niwa_png,icon_house_84_88_png,icon_out_84_88_png",
+			"keys": "bg_jpg,egret_icon_png,description_json,back_mainIn_png,haikei_niwa_png,icon_house_84_88_png,icon_out_84_88_png,Z11_png,frame_kaban_png,frame_tsukue_png,scroll_l_png,scroll_r_png,tsukue_frame_01_png,tsukue_frame_02_png,tsukue_frame_03_png,close_png,kanryou_png,kaban_png",
 			"name": "preload"
 		}
 	],
@@ -40,6 +40,61 @@
 			"name": "icon_out_84_88_png",
 			"type": "image",
 			"url": "assets/icon_out_84_88.png"
+		},
+		{
+			"name": "Z11_png",
+			"type": "image",
+			"url": "assets/Z11.png"
+		},
+		{
+			"name": "frame_kaban_png",
+			"type": "image",
+			"url": "assets/frame_kaban.png"
+		},
+		{
+			"name": "frame_tsukue_png",
+			"type": "image",
+			"url": "assets/frame_tsukue.png"
+		},
+		{
+			"name": "scroll_l_png",
+			"type": "image",
+			"url": "assets/scroll_l.png"
+		},
+		{
+			"name": "scroll_r_png",
+			"type": "image",
+			"url": "assets/scroll_r.png"
+		},
+		{
+			"name": "tsukue_frame_01_png",
+			"type": "image",
+			"url": "assets/tsukue_frame_01.png"
+		},
+		{
+			"name": "tsukue_frame_02_png",
+			"type": "image",
+			"url": "assets/tsukue_frame_02.png"
+		},
+		{
+			"name": "tsukue_frame_03_png",
+			"type": "image",
+			"url": "assets/tsukue_frame_03.png"
+		},
+		{
+			"name": "close_png",
+			"type": "image",
+			"url": "assets/close.png"
+		},
+		{
+			"name": "kanryou_png",
+			"type": "image",
+			"url": "assets/kanryou.png"
+		},
+		{
+			"name": "kaban_png",
+			"type": "image",
+			"url": "assets/kaban.png"
 		}
 	]
 }

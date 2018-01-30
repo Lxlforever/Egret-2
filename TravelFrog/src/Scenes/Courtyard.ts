@@ -4,7 +4,7 @@ class Courtyard extends egret.Sprite{
 		this.CreateScene();
 	}
 	
-	private backgroundSprite:egret.Sprite;
+	//private backgroundSprite:egret.Sprite;
 	private background:egret.Bitmap;
 	private icon:egret.Bitmap;
 

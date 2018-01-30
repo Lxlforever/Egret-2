@@ -29,16 +29,21 @@ private onResourceLoadComplete(event:RES.ResourceEvent):void {
 * Create a game scene
 */
 private courtyard:Courtyard;
+private room:Room;
 
 private createGameScene():void {
     this.courtyard=new Courtyard();
-    this.addChild(this.courtyard);
+    //this.addChild(this.courtyard);
+
+    this.room=new Room(); 
+    this.addChild(this.room);
+
     let icon = new egret.Bitmap();
     icon.texture = RES.getRes("icon_house_84_88_png");
     this.addChild(icon);
     icon.x=Data.getscreenWidth()-icon.width-15;
     icon.y=Data.getscreenHeight()-icon.height-10;
 
-    //1111111
+    
     }
 }
