@@ -1,0 +1,45 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,back_mainIn_png,haikei_niwa_png,icon_house_84_88_png,icon_out_84_88_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "back_mainIn_png",
+			"type": "image",
+			"url": "assets/back_mainIn.png"
+		},
+		{
+			"name": "haikei_niwa_png",
+			"type": "image",
+			"url": "assets/haikei_niwa.png"
+		},
+		{
+			"name": "icon_house_84_88_png",
+			"type": "image",
+			"url": "assets/icon_house_84_88.png"
+		},
+		{
+			"name": "icon_out_84_88_png",
+			"type": "image",
+			"url": "assets/icon_out_84_88.png"
+		}
+	]
+}
