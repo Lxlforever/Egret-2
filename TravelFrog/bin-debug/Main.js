@@ -36,6 +36,7 @@ var Main = (function (_super) {
     Main.prototype.createGameScene = function () {
         this.courtyard = new Courtyard();
         this.addChild(this.courtyard);
+        //1111111
     };
     return Main;
 }(egret.DisplayObjectContainer));

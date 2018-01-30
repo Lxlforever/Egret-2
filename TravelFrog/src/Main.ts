@@ -33,5 +33,6 @@ private courtyard:Courtyard;
 private createGameScene():void {
     this.courtyard=new Courtyard();
     this.addChild(this.courtyard);
+    //1111111
     }
 }
