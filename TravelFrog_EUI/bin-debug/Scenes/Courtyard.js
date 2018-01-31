@@ -21,9 +21,37 @@ var Courtyard = (function (_super) {
         this.background.texture = RES.getRes("haikei_niwa_png");
         this.addChild(this.background);
         this.background.x = Data.getscreenWidth() - this.width;
+        this.width = this.background.width;
         this.background.touchEnabled = true;
         this.background.addEventListener(egret.TouchEvent.TOUCH_MOVE, this.move, this);
         this.background.addEventListener(egret.TouchEvent.TOUCH_END, this.TouchEnd, this);
+        var temp = 0;
+        for (var i = 0; i < Data.grasslist.length; i++) {
+            if (Data.grasslist[i][2]) {
+                Data.grasslist[i][3].x = Data.grasslist[i][0];
+                Data.grasslist[i][3].y = Data.grasslist[i][1];
+                this.addChild(Data.grasslist[i][3]);
+                Data.grasslist[i][3].addEventListener(egret.TouchEvent.TOUCH_MOVE, this.grassclear, this);
+                Data.grasslist[i][3].addEventListener(egret.TouchEvent.TOUCH_BEGIN, this.grassclear, this);
+                Data.grasslist[i][3].addEventListener(egret.Event.ENTER_FRAME, this.clear, this);
+                temp++;
+            }
+        }
+    };
+    Courtyard.prototype.clear = function (event) {
+        if (event.target.y < 500) {
+            this.addChildAt(event.target, 0);
+            event.target.removeEventListener(egret.Event.ENTER_FRAME, this.clear, this);
+            for (var i = 0; i < Data.grasslist.length; i++) {
+                if (event.target.x == Data.grasslist[i][0] && event.target.y == Data.grasslist[i][1]) {
+                    Data.grasslist[i][2] = false;
+                }
+            }
+        }
+    };
+    Courtyard.prototype.grassclear = function (event) {
+        var tw = egret.Tween.get(event.target);
+        tw.to({ y: 450, "alpha": 0 }, 1000);
     };
     Courtyard.prototype.move = function (evt) {
         console.log("this.width: " + this.width + "--this.background.width: " + Data.getscreenWidth());

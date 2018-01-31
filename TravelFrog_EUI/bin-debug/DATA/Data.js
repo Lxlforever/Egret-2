@@ -16,8 +16,43 @@ var Data = (function () {
         }
         return Data._screenHeight;
     };
+    Data.initlist = function () {
+        for (var i = 0; i < this.grasslist.length; i++) {
+            var x = Math.random();
+            if (x < 0.1) {
+                this.grasslist[i][3].texture = RES.getRes("clover_166_png");
+            }
+            else if (x < 0.55) {
+                this.grasslist[i][3].texture = RES.getRes("clover_160_png");
+            }
+            else {
+                this.grasslist[i][3].texture = RES.getRes("clover_154_png");
+            }
+            this.grasslist[i][3].touchEnabled = true;
+        }
+    };
     Data._screenWidth = 0;
     Data._screenHeight = 0;
+    Data.grasslist = [[600, 0, true, new egret.Bitmap()],
+        [40, 550, true, new egret.Bitmap()],
+        [0, 560, true, new egret.Bitmap()],
+        [-50, 570, true, new egret.Bitmap()],
+        [-200, 580, true, new egret.Bitmap()],
+        [-300, 590, true, new egret.Bitmap()],
+        [20, 600, true, new egret.Bitmap()],
+        [-400, 550, true, new egret.Bitmap()],
+        [-150, 620, true, new egret.Bitmap()],
+        [-250, 620, true, new egret.Bitmap()],
+        [-350, 630, true, new egret.Bitmap()],
+        [-450, 640, true, new egret.Bitmap()],
+        [-100, 650, true, new egret.Bitmap()],
+        [-50, 650, true, new egret.Bitmap()],
+        [30, 630, true, new egret.Bitmap()],
+        [-312, 680, true, new egret.Bitmap()],
+        [-134, 680, true, new egret.Bitmap()],
+        [-412, 680, true, new egret.Bitmap()],
+        [-234, 680, true, new egret.Bitmap()],
+        [-80, 680, true, new egret.Bitmap()]];
     return Data;
 }());
 __reflect(Data.prototype, "Data");

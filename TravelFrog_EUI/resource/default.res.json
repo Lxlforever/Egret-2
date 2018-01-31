@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "description_json,back_mainIn_png,bg_jpg,close_png,egret_icon_png,frame_kaban_png,frame_tsukue_png,haikei_niwa_png,icon_house_84_88_png,icon_out_84_88_png,kaban_png,kanryou_png,scroll_l_png,scroll_r_png,tsukue_frame_01_png,tsukue_frame_02_png,tsukue_frame_03_png,Z11_png,katadukeru_png,tsukue_png",
+			"keys": "description_json,back_mainIn_png,bg_jpg,close_png,egret_icon_png,frame_kaban_png,frame_tsukue_png,haikei_niwa_png,icon_house_84_88_png,icon_out_84_88_png,kaban_png,kanryou_png,scroll_l_png,scroll_r_png,tsukue_frame_01_png,tsukue_frame_02_png,tsukue_frame_03_png,Z11_png,katadukeru_png,tsukue_png,clover_154_png,clover_160_png,clover_166_png,sys_clover_window_png",
 			"name": "preload"
 		}
 	],
@@ -105,6 +105,26 @@
 			"name": "tsukue_png",
 			"type": "image",
 			"url": "assets/tsukue.png"
+		},
+		{
+			"name": "clover_154_png",
+			"type": "image",
+			"url": "assets/clover_154.png"
+		},
+		{
+			"name": "clover_160_png",
+			"type": "image",
+			"url": "assets/clover_160.png"
+		},
+		{
+			"name": "clover_166_png",
+			"type": "image",
+			"url": "assets/clover_166.png"
+		},
+		{
+			"name": "sys_clover_window_png",
+			"type": "image",
+			"url": "assets/sys_clover_window.png"
 		}
 	]
 }
