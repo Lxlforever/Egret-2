@@ -10,6 +10,7 @@
 	"game": [
 		"bin-debug/Main.js",
 		"bin-debug/DATA/Data.js",
-		"bin-debug/Scenes/Courtyard.js"
+		"bin-debug/Scenes/Courtyard.js",
+		"bin-debug/Scenes/Room.js"
 	]
 }

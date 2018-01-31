@@ -1,55 +1,65 @@
 {
-	"groups": [
-		{
-			"keys": "bg_jpg,egret_icon_png,description_json,back_mainIn_png,haikei_niwa_png,icon_house_84_88_png,icon_out_84_88_png,icon_shop_84_88_png,clover_154_png",
-			"name": "preload"
-		}
-	],
 	"resources": [
 		{
-			"name": "bg_jpg",
+			"name": "Z11_png",
 			"type": "image",
-			"url": "assets/bg.jpg"
+			"url": "assets/Z11.png"
 		},
 		{
-			"name": "egret_icon_png",
+			"name": "close_png",
 			"type": "image",
-			"url": "assets/egret_icon.png"
+			"url": "assets/close.png"
 		},
 		{
-			"name": "description_json",
-			"type": "json",
-			"url": "config/description.json"
+			"name": "frame_kaban_png",
+			"type": "image",
+			"url": "assets/frame_kaban.png"
 		},
 		{
-			"name": "back_mainIn_png",
+			"name": "frame_tsukue_png",
 			"type": "image",
-			"url": "assets/back_mainIn.png"
+			"url": "assets/frame_tsukue.png"
 		},
 		{
-			"name": "haikei_niwa_png",
+			"name": "kaban_png",
 			"type": "image",
-			"url": "assets/haikei_niwa.png"
+			"url": "assets/kaban.png"
 		},
 		{
-			"name": "icon_house_84_88_png",
+			"name": "kanryou_png",
 			"type": "image",
-			"url": "assets/icon_house_84_88.png"
+			"url": "assets/kanryou.png"
 		},
 		{
-			"name": "icon_out_84_88_png",
+			"name": "scroll_l_png",
 			"type": "image",
-			"url": "assets/icon_out_84_88.png"
+			"url": "assets/scroll_l.png"
 		},
 		{
-			"name": "icon_shop_84_88_png",
+			"name": "scroll_r_png",
 			"type": "image",
-			"url": "assets/icon_shop_84_88.png"
+			"url": "assets/scroll_r.png"
 		},
 		{
-			"name": "clover_154_png",
+			"name": "tsukue_frame_01_png",
 			"type": "image",
-			"url": "assets/clover_154.png"
+			"url": "assets/tsukue_frame_01.png"
+		},
+		{
+			"name": "tsukue_frame_02_png",
+			"type": "image",
+			"url": "assets/tsukue_frame_02.png"
+		},
+		{
+			"name": "tsukue_frame_03_png",
+			"type": "image",
+			"url": "assets/tsukue_frame_03.png"
+		}
+	],
+	"groups": [
+		{
+			"name": "preload",
+			"keys": "Z11_png,close_png,frame_kaban_png,frame_tsukue_png,kaban_png,kanryou_png,scroll_l_png,scroll_r_png,tsukue_frame_01_png,tsukue_frame_02_png,tsukue_frame_03_png"
 		}
 	]
 }

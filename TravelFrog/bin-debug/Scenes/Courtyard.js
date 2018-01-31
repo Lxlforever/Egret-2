@@ -76,7 +76,11 @@ var Courtyard = (function (_super) {
     Courtyard.prototype.grassclear = function (event) {
         var tw = egret.Tween.get(event.target);
         tw.to({ y: 450, "alpha": 0 }, 1000);
-        this.removeChild(event.target);
+        for (var i = 0; i < this.grasslist.length; i++) {
+            if (event.target.x == this.grasslist[i][0] && event.target.y == this.grasslist[i][1]) {
+                this.grasslist[i][2] = false;
+            }
+        }
     };
     Courtyard.prototype.move = function (evt) {
         console.log("this.width: " + this.width + "--this.background.width: " + Data.getscreenWidth());
