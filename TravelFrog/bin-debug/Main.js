@@ -41,6 +41,13 @@ var Main = (function (_super) {
         this.addChild(icon);
         icon.x = Data.getscreenWidth() - icon.width - 15;
         icon.y = Data.getscreenHeight() - icon.height - 10;
+        icon.touchEnabled = true;
+        var storeicon = new egret.Bitmap();
+        storeicon.texture = RES.getRes("icon_shop_84_88_png");
+        this.addChild(storeicon);
+        storeicon.x = icon.x;
+        storeicon.y = icon.y - storeicon.height - 5;
+        storeicon.touchEnabled = true;
         //1111111
     };
     return Main;

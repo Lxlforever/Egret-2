@@ -20,6 +20,9 @@ class Data
         }
         return Data._screenHeight;
     }
-
+         
+        
+            
+  
     
 }

@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "bg_jpg,egret_icon_png,description_json,back_mainIn_png,haikei_niwa_png,icon_house_84_88_png,icon_out_84_88_png",
+			"keys": "bg_jpg,egret_icon_png,description_json,back_mainIn_png,haikei_niwa_png,icon_house_84_88_png,icon_out_84_88_png,icon_shop_84_88_png,clover_154_png",
 			"name": "preload"
 		}
 	],
@@ -40,6 +40,16 @@
 			"name": "icon_out_84_88_png",
 			"type": "image",
 			"url": "assets/icon_out_84_88.png"
+		},
+		{
+			"name": "icon_shop_84_88_png",
+			"type": "image",
+			"url": "assets/icon_shop_84_88.png"
+		},
+		{
+			"name": "clover_154_png",
+			"type": "image",
+			"url": "assets/clover_154.png"
 		}
 	]
 }

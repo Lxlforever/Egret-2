@@ -12,6 +12,27 @@ var Courtyard = (function (_super) {
     __extends(Courtyard, _super);
     function Courtyard() {
         var _this = _super.call(this) || this;
+        _this.grasslist = [[0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true],
+            [0, 0, true]];
         _this.initialPoin = 0;
         _this.CreateScene();
         return _this;
@@ -24,6 +45,38 @@ var Courtyard = (function (_super) {
         this.background.touchEnabled = true;
         this.background.addEventListener(egret.TouchEvent.TOUCH_MOVE, this.move, this);
         this.background.addEventListener(egret.TouchEvent.TOUCH_END, this.TouchEnd, this);
+        var temp = 0;
+        for (var i = 0; i < this.grasslist.length; i++) {
+            if (this.grasslist[i][2]) {
+                var x = Math.random();
+                this.grasslist[i][0] = 60 + 530 * (x - 1);
+                if (temp < 8) {
+                    var y = Math.random();
+                    this.grasslist[i][1] = 550 + 50 * (1 - y);
+                }
+                else if (temp < 15) {
+                    var y = Math.random();
+                    this.grasslist[i][1] = 590 + 50 * (1 - y);
+                }
+                else {
+                    var y = Math.random();
+                    this.grasslist[i][1] = 640 + 50 * (1 - y);
+                }
+                var grass = new egret.Bitmap();
+                grass.texture = RES.getRes("clover_154_png");
+                grass.x = this.grasslist[i][0];
+                grass.y = this.grasslist[i][1];
+                grass.touchEnabled = true;
+                this.addChild(grass);
+                grass.addEventListener(egret.TouchEvent.TOUCH_MOVE, this.grassclear, this);
+                temp++;
+            }
+        }
+    };
+    Courtyard.prototype.grassclear = function (event) {
+        var tw = egret.Tween.get(event.target);
+        tw.to({ y: 450, "alpha": 0 }, 1000);
+        this.removeChild(event.target);
     };
     Courtyard.prototype.move = function (evt) {
         console.log("this.width: " + this.width + "--this.background.width: " + Data.getscreenWidth());
