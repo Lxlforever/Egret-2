@@ -149,7 +149,7 @@ class Main extends eui.UILayer {
         clover.x = 15;
         clover.y = 10;
         let clovertext = new egret.TextField;
-        clovertext.text = "111";
+        clovertext.text = "112";
         clovertext.textColor = 0;
         clovertext.x = 150;
         clovertext.y = 30;
