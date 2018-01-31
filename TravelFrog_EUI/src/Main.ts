@@ -108,6 +108,7 @@ class Main extends eui.UILayer {
      * 点击按钮
      * Click the button
      */
+    
     private onButtonClick(e: egret.TouchEvent) {
         let panel = new eui.Panel();
         panel.title = "Title";
@@ -122,23 +123,19 @@ class Main extends eui.UILayer {
      */
 	private courtyard: Courtyard;
     private room: Room;
-
+    
     protected createGameScene(): void {
 
-		this.courtyard = new Courtyard();
-        //this.addChild(this.courtyard);
-
-        this.room = new Room();
-        this.addChild(this.room);
-
-        /*
-                Data.initlist();
+	  Data.initlist();
         this.courtyard = new Courtyard();
         this.addChild(this.courtyard);
 
+   
+    
         //this.room=new Room(); 
         //this.addChild(this.room);
 
+   
         let icon = new egret.Bitmap();
         icon.texture = RES.getRes("icon_house_84_88_png");
         this.addChild(icon);
@@ -157,12 +154,14 @@ class Main extends eui.UILayer {
         clovertext.x = 150;
         clovertext.y = 30;
         this.addChild(clovertext);
-        this.room_EUI = new Room_EUI();
-        this.addChild(this.room_EUI);
-        console.log(this.room_EUI.x + "--" + this.room_EUI.y);
-        */
-
+       
         
 
     }
+    private loadRoom(){
+        this.removeChild(this.courtyard);
+        this.room=new Room(); 
+        this.addChild(this.room);
+    }
+    
 }

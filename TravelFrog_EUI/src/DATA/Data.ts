@@ -39,7 +39,6 @@ class Data {
     public static initlist(){
 
     
-
         for (let i: number = 0; i < this.grasslist.length; i++) {
             var x = Math.random();
             if (x < 0.1) {
