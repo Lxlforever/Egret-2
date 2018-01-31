@@ -21,7 +21,6 @@
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
-		"resource/eui_skins/11.exml",
 		"resource/eui_skins/ButtonSkin.exml",
 		"resource/eui_skins/CheckBoxSkin.exml",
 		"resource/eui_skins/HScrollBarSkin.exml",
