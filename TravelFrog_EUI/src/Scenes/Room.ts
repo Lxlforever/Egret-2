@@ -48,6 +48,8 @@ class Room extends egret.Sprite {
 
 		let roomEUI = new RoomEUI();
         this.bagsSprite.addChild(roomEUI);
+		roomEUI.buttonXL.addEventListener(egret.TouchEvent.TOUCH_END,this.TouchTrip,this);
+		roomEUI.buttonXR.addEventListener(egret.TouchEvent.TOUCH_END,this.TouchTrip,this);
 	}
 
 	private Finish()

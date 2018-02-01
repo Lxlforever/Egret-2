@@ -5,7 +5,7 @@
 	<w:Config id="1614b34a05f" ></w:Config>
 	<e:Image source="frame_kaban_png" width="400" height="500" left="120" top="0" scale9Grid="13,14,474,202"/>
 	<e:Image source="frame_tsukue_png" width="400" height="500" top="0" scale9Grid="13,13,473,203" right="120"/>
-	<e:Button id="button" label="" enabled="true" x="492.5" verticalCenter="0">
+	<e:Button id="buttonR" label="" enabled="true" x="492.5" verticalCenter="0">
 		<e:skinName>
 			<e:Skin states="up,down,disabled">
 			<e:Image width="100%" height="100%" source="scroll_r_png"/>
@@ -13,7 +13,7 @@
 			</e:Skin>
 		</e:skinName>
 	</e:Button>
-	<e:Button id="button0" label="" x="732.5" enabled="true" verticalCenter="0">
+	<e:Button id="buttonL" label="" x="732.5" enabled="true" verticalCenter="0">
 		<e:skinName>
 			<e:Skin states="up,down,disabled">
 			<e:Image width="100%" height="100%" source="scroll_l_png"/>
@@ -25,7 +25,7 @@
 	<e:Image source="tsukue_frame_01_png" x="159" y="108.33" anchorOffsetX="0" width="150" anchorOffsetY="0" height="112.67"/>
 	<e:Image source="tsukue_frame_02_png" x="338.33" y="108.33" anchorOffsetX="0" width="139.34" anchorOffsetY="0" height="110"/>
 	<e:Image source="tsukue_frame_03_png" x="234" y="250" anchorOffsetX="0" width="178" anchorOffsetY="0" height="112.67"/>
-	<e:Button label="" x="220" y="408">
+	<e:Button id="buttonFinish" label="" x="220" y="408" enabled="true">
 		<e:skinName>
 			<e:Skin states="up,down,disabled">
 			<e:Image width="100%" height="100%" source="kanryou_png"/>
@@ -37,7 +37,7 @@
 	<e:Image source="tsukue_frame_01_png" x="783" y="101" anchorOffsetX="0" width="172.67" anchorOffsetY="0" height="100.67"/>
 	<e:Image source="tsukue_frame_02_png" x="963.67" y="99.67" anchorOffsetX="0" width="171.33" anchorOffsetY="0" height="102"/>
 	<e:Image source="tsukue_frame_03_png" x="788.67" y="250" anchorOffsetX="0" width="350" anchorOffsetY="0" height="134"/>
-	<e:Button label="" x="467.5" y="-2.5" enabled="true">
+	<e:Button id="buttonXL" label="" x="470" y="-2.5" enabled="true">
 		<e:skinName>
 			<e:Skin states="up,down,disabled">
 			<e:Image width="100%" height="100%" source="close_png"/>
@@ -45,7 +45,7 @@
 			</e:Skin>
 		</e:skinName>
 	</e:Button>
-	<e:Button label="" x="1110" y="0">
+	<e:Button id="buttonXR" label="" x="1110" y="0" enabled="true">
 		<e:skinName>
 		<e:Skin states="up,down,disabled">
 			<e:Image width="100%" height="100%" source="close_png"/>
@@ -53,7 +53,7 @@
 		</e:Skin>
 		</e:skinName>
 	</e:Button>
-	<e:Button label="" x="855" y="408">
+	<e:Button id="buttonClear" label="" x="855" y="408" enabled="true">
 		<e:skinName>
 			<e:Skin states="up,down,disabled">
 			<e:Image width="100%" height="100%" source="katadukeru_png"/>

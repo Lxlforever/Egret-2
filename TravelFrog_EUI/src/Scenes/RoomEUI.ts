@@ -3,6 +3,7 @@ class RoomEUI extends eui.Component implements eui.UIComponent {
 		super();
 		this.skinName = "RoomEUISkin";
 		this.y = Data.getscreenHeight() / 2 - this.height / 2;
+		this.addEventListener(egret.Event.ADDED_TO_STAGE,this.createScene,this);
 
 	}
 
@@ -10,20 +11,29 @@ class RoomEUI extends eui.Component implements eui.UIComponent {
 		super.partAdded(partName, instance);
 	}
 
-
-	public button: eui.Button;
-	public button0: eui.Button;
-
 	protected childrenCreated(): void {
 		super.childrenCreated();
+		
+	}
 
-		let tw = egret.Tween.get(this.button, { loop: true });
-		tw.to({ x: this.button.x + this.button.width }, 500);
-		let tw2 = egret.Tween.get(this.button0, { loop: true });
-		tw2.to({ x: this.button0.x - this.button0.width }, 500);
+	public buttonR:eui.Button;
+	public buttonL:eui.Button;
+	public buttonFinish:eui.Button;
+	public buttonXL:eui.Button;
+	public buttonXR:eui.Button;
+	public buttonClear:eui.Button;
+	private createScene()
+	{
+		this.removeEventListener(egret.Event.ADDED_TO_STAGE,this.createScene,this);
 
-		this.button.addEventListener(egret.TouchEvent.TOUCH_END, this.Touch, this);
-		this.button0.addEventListener(egret.TouchEvent.TOUCH_END, this.Touch, this);
+		let tw = egret.Tween.get(this.buttonR, { loop: true });
+		tw.to({ x: this.buttonR.x + this.buttonR.width }, 500);
+		let tw2 = egret.Tween.get(this.buttonL, { loop: true });
+		tw2.to({ x: this.buttonL.x - this.buttonL.width }, 500);
+
+		this.buttonR.addEventListener(egret.TouchEvent.TOUCH_END, this.Touch, this);
+		this.buttonL.addEventListener(egret.TouchEvent.TOUCH_END, this.Touch, this);
+		
 	}
 
 	private Touch() {

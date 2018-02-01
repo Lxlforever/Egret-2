@@ -17,7 +17,8 @@
 		"Test": "resource/eui_skins/Test.exml",
 		"Room_EUI": "resource/eui_skins/Room_EUI.exml",
 		"roomEUI": "resource/eui_skins/roomEUI.exml",
-		"RoomEUI": "resource/eui_skins/RoomEUI.exml"
+		"RoomEUI": "resource/eui_skins/RoomEUI.exml",
+		"ShopEUI": "resource/eui_skins/ShopEUI.exml"
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
@@ -31,6 +32,7 @@
 		"resource/eui_skins/RadioButtonSkin.exml",
 		"resource/eui_skins/RoomEUI.exml",
 		"resource/eui_skins/ScrollerSkin.exml",
+		"resource/eui_skins/ShopEUI.exml",
 		"resource/eui_skins/TextInputSkin.exml",
 		"resource/eui_skins/ToggleSwitchSkin.exml",
 		"resource/eui_skins/VScrollBarSkin.exml",
