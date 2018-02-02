@@ -10,6 +10,16 @@ class Data {
 
 
     private static _screenHeight: number = 0;
+    private static clovernumber:number=500;
+    
+    public static Clovernumber():string{
+        
+        return this.clovernumber.toString();
+    }
+    public static AddClover(){
+        this.clovernumber++;
+        
+    }
     public static getscreenHeight(): number {
         if (Data._screenHeight == 0) {
             Data._screenHeight = egret.MainContext.instance.stage.stageHeight;
@@ -42,7 +52,7 @@ class Data {
 
         for (let i: number = 0; i < this.grasslist.length; i++) {
             var x = Math.random();
-            if (x < 0.1) {
+            if (x < 0.05) {
                 this.grasslist[i][3].texture = RES.getRes("clover_166_png");
             } else if (x < 0.55) {
                 this.grasslist[i][3].texture = RES.getRes("clover_160_png");

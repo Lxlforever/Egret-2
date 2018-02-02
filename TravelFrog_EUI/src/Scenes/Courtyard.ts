@@ -24,7 +24,7 @@ class Courtyard extends egret.Sprite {
 		this.background.touchEnabled = true;
 		this.background.addEventListener(egret.TouchEvent.TOUCH_MOVE, this.move, this);
 		this.background.addEventListener(egret.TouchEvent.TOUCH_END, this.TouchEnd, this);
-		let temp: number = 0;
+	
 		for (let i: number = 0; i < Data.grasslist.length; i++) {
 
 			if (Data.grasslist[i][2]) {
@@ -38,14 +38,14 @@ class Courtyard extends egret.Sprite {
 				Data.grasslist[i][3].addEventListener(egret.TouchEvent.TOUCH_MOVE, this.grassclear, this);
 				Data.grasslist[i][3].addEventListener(egret.TouchEvent.TOUCH_BEGIN, this.grassclear, this)
 				Data.grasslist[i][3].addEventListener(egret.Event.ENTER_FRAME,this.clear,this);
-				temp++;
+			
 				
 			}
 		}
 
 	}
 
-	private clear(event: egret.Event){
+	/*private clear(event: egret.Event){
 		if(event.target.y<500){
 			this.addChildAt(event.target,0);
 			event.target.removeEventListener(egret.Event.ENTER_FRAME,this.clear,this);
@@ -63,7 +63,34 @@ class Courtyard extends egret.Sprite {
 		var tw = egret.Tween.get(event.target);
 		tw.to({ y: 450,"alpha":0}, 1000)
 		
+	}*/
+	private clear(event: egret.Event){
+		
+		if(event.target.y<500&&event.target.y!=0){
+			
+			this.removeChild(event.target);
+			Data.AddClover();
+			event.target.removeEventListener(egret.Event.ENTER_FRAME,this.clear,this);
+			
+
+		}
 	}
+
+	private grassclear(event: egret.Event) {
+		for (let i: number = 0; i <Data.grasslist.length; i++) {
+				if(event.target.x== Data.grasslist[i][0]&&event.target.y== Data.grasslist[i][1]){
+					Data.grasslist[i][2]=false;
+					
+				}
+			}
+	
+			this.removeEventListener(egret.TouchEvent.TOUCH_MOVE, this.grassclear, this);
+			this.removeEventListener(egret.TouchEvent.TOUCH_BEGIN, this.grassclear, this);
+		var tw = egret.Tween.get(event.target);
+		tw.to({ y: 450,"alpha":0}, 1000);
+		
+	}
+
 
 	
 	private initialPoin: number = 0;
