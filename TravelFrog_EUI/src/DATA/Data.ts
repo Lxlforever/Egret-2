@@ -54,26 +54,22 @@ class Data {
 
     }
 
-    private static ShopTable: { [key: number]: string[]; } = {};
-
-    public static getShopTable() {
-        return this.ShopTable;
-    }
+    public static ShopTable: { [key: number]: string[]; } = {};
 
     public static readShopTable() {
-        if (this.ShopTable == null) {
-            let str: string = RES.getRes("PropsTable_txt");
-            let strArray: string[] = str.split("\n");
-            let strArray2: string[][] = [];
-            for (let i = 0; i < strArray.length; i++) {
-                strArray2[i] = strArray[i].split(",");
-            }
-            let temp: number = 0;
-            for (let i = 1; i < strArray2.length; i++) {
-                this.ShopTable[strArray2[i][0]] = strArray2[i];
-            }
+
+        let str: string = RES.getRes("PropsTable_txt");
+        let strArray: string[] = str.split("\n");
+        let strArray2: string[][] = [];
+        for (let i = 0; i < strArray.length; i++) {
+            strArray2[i] = strArray[i].split(",");
+        }
+        let temp: number = 0;
+        for (let i = 1; i < strArray2.length; i++) {
+            this.ShopTable[strArray2[i][0]] = strArray2[i];
         }
 
+        this.groups=new egret.Sprite();
     }
 
     public static BackpackTable: { [key: string]: { [key: string]: number }; } = {
@@ -82,5 +78,7 @@ class Data {
         "LuckyCharm": {},
         "Specialty": {},
     };
+
+    public static groups:egret.Sprite;
 
 }

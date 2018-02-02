@@ -30,7 +30,7 @@ class Main extends eui.UILayer {
         await this.loadResource()
         this.createGameScene();
         const result = await RES.getResAsync("description_json")
-        this.startAnimation(result);
+        //this.startAnimation(result);
         await platform.login();
         const userInfo = await platform.getUserInfo();
         console.log(userInfo);
@@ -78,7 +78,7 @@ class Main extends eui.UILayer {
      * 描述文件加载成功，开始播放动画
      * Description file loading is successful, start to play the animation
      */
-    private startAnimation(result: Array<any>): void {
+    /*private startAnimation(result: Array<any>): void {
         let parser = new egret.HtmlTextParser();
 
         let textflowArr = result.map(text => parser.parse(text));
@@ -102,20 +102,20 @@ class Main extends eui.UILayer {
         };
 
         change();
-    }
+    }*/
 
     /**
      * 点击按钮
      * Click the button
      */
     
-    private onButtonClick(e: egret.TouchEvent) {
+    /*private onButtonClick(e: egret.TouchEvent) {
         let panel = new eui.Panel();
         panel.title = "Title";
         panel.horizontalCenter = 0;
         panel.verticalCenter = 0;
         this.addChild(panel);
-    }
+    }*/
 
     /**
      * 创建场景界面
@@ -123,14 +123,18 @@ class Main extends eui.UILayer {
      */
 	private courtyard: Courtyard;
     private room: Room;
+    private shop_EUI:Shop_EUI;
      
     protected createGameScene(): void {
 
         Data.readShopTable();
 
+        this.shop_EUI=new Shop_EUI();
+        this.addChild(this.shop_EUI);
+
 	    Data.initlist();
         this.courtyard = new Courtyard();
-        this.addChild(this.courtyard);
+        //this.addChild(this.courtyard);
 
         let icon = new egret.Bitmap();
         icon.texture = RES.getRes("icon_house_84_88_png");

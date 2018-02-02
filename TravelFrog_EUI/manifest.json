@@ -17,6 +17,7 @@
 		"bin-debug/DATA/Data.js",
 		"bin-debug/Scenes/Courtyard.js",
 		"bin-debug/Scenes/Room.js",
-		"bin-debug/Scenes/RoomEUI.js"
+		"bin-debug/Scenes/RoomEUI.js",
+		"bin-debug/Scenes/Shop_EUI.js"
 	]
 }
