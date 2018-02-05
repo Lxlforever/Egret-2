@@ -122,10 +122,9 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
 
-	private courtyard: Courtyard;
-    private room: Room;
-    private shop_EUI:Shop_EUI;
-     
+	private control:Control;
+    
+    
 
     protected createGameScene(): void {
 
@@ -135,9 +134,7 @@ class Main extends eui.UILayer {
 	   
 
 
-        this.shop_EUI=new Shop_EUI();
-        this.addChild(this.shop_EUI);
-
+      
 	  
 
        
